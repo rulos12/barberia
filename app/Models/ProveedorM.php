@@ -1,20 +1,20 @@
 <?php
-// Modelo de Producto
+// Modelo de Proveedor
 
 namespace App\Models;
 
 use CodeIgniter\Model;
 
-class ProductoM extends Model
+class ProveedorM extends Model
 {
     protected $DBGroup          = 'default';
-    protected $table            = 'Producto';
-    protected $primaryKey       = 'id_producto';
+    protected $table            = 'Proveedor';
+    protected $primaryKey       = 'id_proveedor';
     protected $useAutoIncrement = true;
     protected $returnType       = 'object';
     protected $useSoftDeletes   = true;
     protected $protectFields    = true;
-    protected $allowedFields    = ['nombre','precio','descripcion','stock','id_marca','id_tipo', 'id_proveedor'];
+    protected $allowedFields    = ['id_proveedor','nombreProveedor', 'direccion','telefono', 'email','contacto','productos'];
 
     // Dates
     protected $useTimestamps = true;
@@ -39,25 +39,4 @@ class ProductoM extends Model
     protected $afterFind      = [];
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
-
-
-    public function getProductosConMarca()
-    {
-
-        return $this->select('producto.*, marca.nombreMarca')
-                    ->join('marca', 'producto.id_marca = marca.id_marca')
-                    ->findAll();
-    }
-
-    public function getProductosCon()
-    {
-       
-        return $this->select('producto.*, marca.nombreMarca, proveedor.nombreProveedor, tipo.nombreTipo')
-                ->join('marca', 'producto.id_marca = marca.id_marca' , 'left')
-                ->join('proveedor', 'producto.id_proveedor = proveedor.id_proveedor', 'left')
-                ->join('tipo', 'producto.id_tipo = tipo.id_tipo', 'left')
-                ->findAll(); 
-
-    }
-
-} 
+}

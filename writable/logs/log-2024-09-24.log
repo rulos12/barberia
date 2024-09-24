@@ -1,0 +1,332 @@
+CRITICAL - 2024-09-24 01:30:43 --> ErrorException: Undefined array key "nombreProveedor"
+[Method: POST, Route: proveedor/insert]
+in APPPATH\Controllers\Proveedor.php on line 22.
+ 1 APPPATH\Controllers\Proveedor.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombreProveedor"', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Proveedor.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Proveedor->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedor))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-09-24 01:32:43 --> ErrorException: Undefined array key "nombreProveedor"
+[Method: POST, Route: proveedor/insert]
+in APPPATH\Controllers\Proveedor.php on line 22.
+ 1 APPPATH\Controllers\Proveedor.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombreProveedor"', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Proveedor.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Proveedor->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedor))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-09-24 01:33:27 --> ErrorException: Undefined array key "descripcion"
+[Method: POST, Route: proveedor/insert]
+in APPPATH\Controllers\Proveedor.php on line 23.
+ 1 APPPATH\Controllers\Proveedor.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "descripcion"', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Proveedor.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Proveedor->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedor))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-09-24 01:53:35 --> ErrorException: Undefined variable $marca
+[Method: GET, Route: proveedor/editarProveedor/2]
+in APPPATH\Views\marca\editarM.php on line 10.
+ 1 APPPATH\Views\marca\editarM.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $marca', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\marca\\editarM.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\marca\\editarM.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('marca/editarM', [], true)
+ 5 APPPATH\Controllers\Proveedor.php(54): view('marca/editarM', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Proveedor->editarProv('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedor))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-09-24 01:53:45 --> ErrorException: Undefined variable $marca
+[Method: GET, Route: proveedor/editarProveedor/2]
+in APPPATH\Views\marca\editarM.php on line 10.
+ 1 APPPATH\Views\marca\editarM.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $marca', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\marca\\editarM.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\marca\\editarM.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('marca/editarM', [], true)
+ 5 APPPATH\Controllers\Proveedor.php(54): view('marca/editarM', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Proveedor->editarProv('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedor))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-09-24 01:53:57 --> ErrorException: Undefined variable $marca
+[Method: GET, Route: proveedor/editarProveedor/2]
+in APPPATH\Views\marca\editarM.php on line 10.
+ 1 APPPATH\Views\marca\editarM.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $marca', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\marca\\editarM.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\marca\\editarM.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('marca/editarM', [], true)
+ 5 APPPATH\Controllers\Proveedor.php(54): view('marca/editarM', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Proveedor->editarProv('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedor))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-09-24 01:53:58 --> ErrorException: Undefined variable $marca
+[Method: GET, Route: proveedor/editarProveedor/2]
+in APPPATH\Views\marca\editarM.php on line 10.
+ 1 APPPATH\Views\marca\editarM.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $marca', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\marca\\editarM.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\marca\\editarM.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('marca/editarM', [], true)
+ 5 APPPATH\Controllers\Proveedor.php(54): view('marca/editarM', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Proveedor->editarProv('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedor))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-09-24 01:54:20 --> ErrorException: Undefined array key 0
+[Method: GET, Route: proveedor/editarProveedor/2]
+in APPPATH\Views\proveedor\editarProveedor.php on line 10.
+ 1 APPPATH\Views\proveedor\editarProveedor.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\proveedor\\editarProveedor.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\proveedor\\editarProveedor.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editarProveedor', [], true)
+ 5 APPPATH\Controllers\Proveedor.php(54): view('proveedor/editarProveedor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Proveedor->editarProv('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedor))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+ERROR - 2024-09-24 01:55:52 --> mysqli_sql_exception: Unknown column 'id_proveedor' in 'where clause' in C:\xampp\htdocs\Barberia\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\Barberia\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Barberia\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Barberia\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Barberia\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Barberia\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Barberia\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Barberia\app\Controllers\Proveedor.php(49): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(933): App\Controllers\Proveedor->editarProv('2')
+#8 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedor))
+#9 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Barberia\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Barberia\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\Barberia\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\Barberia\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-09-24 01:55:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id_proveedor' in 'where clause'
+[Method: GET, Route: proveedor/editarProveedor/2]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `marca`
+WHERE `id_proveedor` = :id_proveedor:
+AND `marca`.`deleted_at` IS NULL', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Proveedor.php(49): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Proveedor->editarProv('2')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedor))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-09-24 01:55:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id_proveedor' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `marca`
+WHERE `id_proveedor` = \'2\'
+AND `marca`.`deleted_at` IS NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `marca`
+WHERE `id_proveedor` = \'2\'
+AND `marca`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `marca`
+WHERE `id_proveedor` = :id_proveedor:
+AND `marca`.`deleted_at` IS NULL', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Proveedor.php(49): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Proveedor->editarProv('2')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedor))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-09-24 01:55:52 --> [Caused by] mysqli_sql_exception: Unknown column 'id_proveedor' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `marca`
+WHERE `id_proveedor` = \'2\'
+AND `marca`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `marca`
+WHERE `id_proveedor` = \'2\'
+AND `marca`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `marca`
+WHERE `id_proveedor` = \'2\'
+AND `marca`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `marca`
+WHERE `id_proveedor` = :id_proveedor:
+AND `marca`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Proveedor.php(49): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Proveedor->editarProv('2')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedor))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+ERROR - 2024-09-24 01:57:20 --> mysqli_sql_exception: Unknown column 'id_proveedor' in 'where clause' in C:\xampp\htdocs\Barberia\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\Barberia\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Barberia\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Barberia\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Barberia\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Barberia\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Barberia\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Barberia\app\Controllers\Proveedor.php(49): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(933): App\Controllers\Proveedor->editarProv('2')
+#8 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedor))
+#9 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Barberia\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Barberia\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\Barberia\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\Barberia\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-09-24 01:57:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id_proveedor' in 'where clause'
+[Method: GET, Route: proveedor/editarProveedor/2]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `marca`
+WHERE `id_proveedor` = :id_proveedor:
+AND `marca`.`deleted_at` IS NULL', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Proveedor.php(49): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Proveedor->editarProv('2')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedor))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-09-24 01:57:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id_proveedor' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `marca`
+WHERE `id_proveedor` = \'2\'
+AND `marca`.`deleted_at` IS NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `marca`
+WHERE `id_proveedor` = \'2\'
+AND `marca`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `marca`
+WHERE `id_proveedor` = :id_proveedor:
+AND `marca`.`deleted_at` IS NULL', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Proveedor.php(49): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Proveedor->editarProv('2')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedor))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-09-24 01:57:20 --> [Caused by] mysqli_sql_exception: Unknown column 'id_proveedor' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `marca`
+WHERE `id_proveedor` = \'2\'
+AND `marca`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `marca`
+WHERE `id_proveedor` = \'2\'
+AND `marca`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `marca`
+WHERE `id_proveedor` = \'2\'
+AND `marca`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `marca`
+WHERE `id_proveedor` = :id_proveedor:
+AND `marca`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Proveedor.php(49): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Proveedor->editarProv('2')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedor))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-09-24 02:02:48 --> ErrorException: Undefined property: stdClass::$producto
+[Method: GET, Route: proveedor/editarProveedor/2]
+in APPPATH\Views\proveedor\editarProveedor.php on line 36.
+ 1 APPPATH\Views\proveedor\editarProveedor.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$producto', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\proveedor\\editarProveedor.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\proveedor\\editarProveedor.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editarProveedor', [], true)
+ 5 APPPATH\Controllers\Proveedor.php(53): view('proveedor/editarProveedor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Proveedor->editarProv('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedor))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-09-24 02:14:46 --> ErrorException: Undefined variable $marcas
+[Method: GET, Route: tipo/addTipo]
+in APPPATH\Views\tipo\addTipo.php on line 28.
+ 1 APPPATH\Views\tipo\addTipo.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $marcas', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\tipo\\addTipo.php', 28)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\tipo\\addTipo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('tipo/addTipo', [], true)
+ 5 APPPATH\Controllers\Tipo.php(16): view('tipo/addTipo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tipo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tipo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-09-24 02:25:44 --> ErrorException: Undefined array key "id_tipo"
+[Method: POST, Route: tipo/update]
+in APPPATH\Controllers\Tipo.php on line 58.
+ 1 APPPATH\Controllers\Tipo.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_tipo"', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Tipo.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tipo->update()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tipo))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-09-24 02:30:32 --> ErrorException: Undefined array key "id_tipo"
+[Method: POST, Route: tipo/update]
+in APPPATH\Controllers\Tipo.php on line 58.
+ 1 APPPATH\Controllers\Tipo.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_tipo"', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Tipo.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tipo->update()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tipo))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')

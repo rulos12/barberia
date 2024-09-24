@@ -1,5 +1,5 @@
 <div class="container">
-<!-- show.php -->
+<!-- ver la tabla de productos -->
     <div class="row">
         <div class="col">
             <h1>Productos</h1>
@@ -11,24 +11,30 @@
         <div class="col">
             <table class="table table-striped table-bordered">
                 <thead>
-                    <th>idProducto</th>
-                    <th>nombre</th>
-                    <th>precio</th>
-                    <th>cantidad</th>
-                    <th>descripción</th>
+                    <th>id_producto</th>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                    <th>Stock</th>
+                    <th>Descripción</th>
+                    <th>id_marca</th>
+                    <th>Categoria</th>
+                    <th>Proveedor</th>
                     <th>Acción</th>
                 </thead>
                 <tbody>
                     <?php foreach ($productos as $key) : ?>
                         <tr>
-                            <td><?= $key->idProducto ?></td>
-                            <td><?= $key->nombre ?></td>
-                            <td><?= $key->precio ?></td>
-                            <td><?= $key->cantidad ?></td>
-                            <td><?= $key->descripcion ?></td>
+                            <td><?= $key->id_producto;?></td>
+                            <td><?= $key->nombre;?></td>
+                            <td><?= $key->precio;?></td>
+                            <td><?= $key->stock;?></td>
+                            <td><?= $key->descripcion;?></td>
+                            <td><?= $key->nombreMarca;?></td>
+                            <td><?= $key->nombreTipo;?></td>
+                            <td><?= $key->nombreProveedor;?></td>
                             <td>
-                                <a href="<?= base_url('producto/delete/' . $key->idProducto); ?> " class="btn btn-danger">Borrar</a>
-                                <a href="<?= base_url('marcas/edit/' . $key->nombre); ?> " class="btn btn-warning">Modificar</a>
+                                <a href="<?= base_url('producto/delete/' . $key->id_producto); ?> " class="btn btn-danger">Borrar</a>
+                                <a href="<?= base_url('producto/editarP/' . $key->id_producto); ?> " class="btn btn-warning">Modificar</a>
 
                             </td>
                         </tr>

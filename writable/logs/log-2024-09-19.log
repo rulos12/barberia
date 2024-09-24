@@ -1,0 +1,202 @@
+CRITICAL - 2024-09-19 20:22:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "product/editarP.php"
+[Method: GET, Route: producto/editarP/11]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product/editarP.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('product/editarP', [], true)
+ 3 APPPATH\Controllers\Producto.php(63): view('product/editarP', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->editarProducto('11')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-09-19 20:23:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "product/editarP.php"
+[Method: GET, Route: producto/editarP/11]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product/editarP.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('product/editarP', [], true)
+ 3 APPPATH\Controllers\Producto.php(63): view('product/editarP', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->editarProducto('11')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-09-19 20:24:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "product/editarP.php"
+[Method: GET, Route: producto/editarP/11]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product/editarP.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('product/editarP', [], true)
+ 3 APPPATH\Controllers\Producto.php(63): view('product/editarP', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->editarP('11')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-09-19 20:24:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "product/editarP.php"
+[Method: GET, Route: producto/editarP/11]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product/editarP.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('product/editarP', [], true)
+ 3 APPPATH\Controllers\Producto.php(63): view('product/editarP', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->editarP('11')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-09-19 20:24:32 --> ErrorException: Undefined variable $nombre
+[Method: GET, Route: producto/editarP/11]
+in APPPATH\Views\producto\editarP.php on line 7.
+ 1 APPPATH\Views\producto\editarP.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\producto\\editarP.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\producto\\editarP.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/editarP', [], true)
+ 5 APPPATH\Controllers\Producto.php(63): view('producto/editarP', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->editarP('11')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-09-19 20:25:02 --> ErrorException: Undefined variable $nombre
+[Method: GET, Route: producto/editarP/11]
+in APPPATH\Views\producto\editarP.php on line 7.
+ 1 APPPATH\Views\producto\editarP.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\producto\\editarP.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\producto\\editarP.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/editarP', [], true)
+ 5 APPPATH\Controllers\Producto.php(63): view('producto/editarP', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->editarP('11')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-09-19 20:28:02 --> ErrorException: Undefined variable $nombre
+[Method: GET, Route: producto/editarP/11]
+in APPPATH\Views\producto\editarP.php on line 7.
+ 1 APPPATH\Views\producto\editarP.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\producto\\editarP.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\producto\\editarP.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/editarP', [], true)
+ 5 APPPATH\Controllers\Producto.php(63): view('producto/editarP', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->editarP('11')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-09-19 20:30:49 --> ErrorException: Undefined variable $nombre
+[Method: GET, Route: producto/editarP/11]
+in APPPATH\Views\producto\editarP.php on line 4.
+ 1 APPPATH\Views\producto\editarP.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\producto\\editarP.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\producto\\editarP.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/editarP', [], true)
+ 5 APPPATH\Controllers\Producto.php(63): view('producto/editarP', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->editarP('11')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-09-19 20:39:05 --> ErrorException: Undefined variable $nombre
+[Method: GET, Route: producto/editarP/11]
+in APPPATH\Views\producto\editarP.php on line 4.
+ 1 APPPATH\Views\producto\editarP.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\producto\\editarP.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\producto\\editarP.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/editarP', [], true)
+ 5 APPPATH\Controllers\Producto.php(63): view('producto/editarP', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->editarP('11')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-09-19 20:40:05 --> ErrorException: Undefined array key 1
+[Method: GET, Route: producto/editarP/11]
+in APPPATH\Views\producto\editarP.php on line 14.
+ 1 APPPATH\Views\producto\editarP.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\producto\\editarP.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\producto\\editarP.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/editarP', [], true)
+ 5 APPPATH\Controllers\Producto.php(63): view('producto/editarP', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->editarP('11')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-09-19 20:47:44 --> ErrorException: Undefined property: stdClass::$marca
+[Method: GET, Route: producto/editarP/11]
+in APPPATH\Views\producto\editarP.php on line 29.
+ 1 APPPATH\Views\producto\editarP.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$marca', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\producto\\editarP.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\producto\\editarP.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/editarP', [], true)
+ 5 APPPATH\Controllers\Producto.php(63): view('producto/editarP', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->editarP('11')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-09-19 20:48:17 --> ErrorException: Undefined variable $marcas
+[Method: GET, Route: producto/editarP/11]
+in APPPATH\Views\producto\editarP.php on line 29.
+ 1 APPPATH\Views\producto\editarP.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $marcas', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\producto\\editarP.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\producto\\editarP.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/editarP', [], true)
+ 5 APPPATH\Controllers\Producto.php(63): view('producto/editarP', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->editarP('11')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-09-19 20:49:36 --> ErrorException: Undefined variable $marcas
+[Method: GET, Route: producto/editarP/11]
+in APPPATH\Views\producto\editarP.php on line 29.
+ 1 APPPATH\Views\producto\editarP.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $marcas', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\producto\\editarP.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\producto\\editarP.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/editarP', [], true)
+ 5 APPPATH\Controllers\Producto.php(63): view('producto/editarP', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->editarP('11')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-09-19 20:49:37 --> ErrorException: Undefined variable $marcas
+[Method: GET, Route: producto/editarP/11]
+in APPPATH\Views\producto\editarP.php on line 29.
+ 1 APPPATH\Views\producto\editarP.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $marcas', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\producto\\editarP.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\producto\\editarP.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/editarP', [], true)
+ 5 APPPATH\Controllers\Producto.php(63): view('producto/editarP', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->editarP('11')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')

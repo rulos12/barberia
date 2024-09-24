@@ -10,13 +10,13 @@
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Productos</a>
+          <a class="nav-link" href="/producto">Productos</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Categorias</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?=base_url('/marcas'); ?>">Marcas</a>
+          <a class="nav-link" href="/marca/addMarca">Marcas</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="<?=base_url('/proveedor'); ?>">Proveedores</a>
