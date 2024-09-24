@@ -40,9 +40,11 @@ class ProductoM extends Model
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
 
+    
 
     public function getProductosConMarca()
     {
+        // Consultas para obtener solo el nombre de la marca
 
         return $this->select('producto.*, marca.nombreMarca')
                     ->join('marca', 'producto.id_marca = marca.id_marca')
@@ -51,7 +53,8 @@ class ProductoM extends Model
 
     public function getProductosCon()
     {
-       
+        // Consultas para obtener solo el nombre de la marca, proveedor, tipo
+
         return $this->select('producto.*, marca.nombreMarca, proveedor.nombreProveedor, tipo.nombreTipo')
                 ->join('marca', 'producto.id_marca = marca.id_marca' , 'left')
                 ->join('proveedor', 'producto.id_proveedor = proveedor.id_proveedor', 'left')

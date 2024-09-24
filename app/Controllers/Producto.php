@@ -13,7 +13,6 @@ class Producto extends BaseController
         $productoM = model('ProductoM');
        
         $data['productos']  = $productoM->getProductosCon();
-        echo $productoM->db->getLastQuery();
         return
             view('head') .
             view('menu') .
