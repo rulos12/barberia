@@ -1,0 +1,46 @@
+CRITICAL - 2024-09-26 01:46:27 --> ErrorException: Undefined variable $cita
+[Method: GET, Route: cita/editarCita/1]
+in APPPATH\Views\cita\editarCita.php on line 28.
+ 1 APPPATH\Views\cita\editarCita.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cita', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\cita\\editarCita.php', 28)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\cita\\editarCita.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('cita/editarCita', [], true)
+ 5 APPPATH\Controllers\Cita.php(81): view('cita/editarCita', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cita->editarCita('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cita))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-09-26 03:30:24 --> ErrorException: Undefined variable $peliculasD
+[Method: GET, Route: cita/editarCita/1]
+in APPPATH\Views\cita\editarCita.php on line 58.
+ 1 APPPATH\Views\cita\editarCita.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $peliculasD', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\cita\\editarCita.php', 58)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\cita\\editarCita.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('cita/editarCita', [], true)
+ 5 APPPATH\Controllers\Cita.php(85): view('cita/editarCita', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cita->editarCita('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cita))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-09-26 04:06:52 --> ErrorException: Undefined property: stdClass::$id_empleadp
+[Method: GET, Route: cita/editarCita/2]
+in APPPATH\Views\cita\editarCita.php on line 24.
+ 1 APPPATH\Views\cita\editarCita.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_empleadp', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\cita\\editarCita.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\cita\\editarCita.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('cita/editarCita', [], true)
+ 5 APPPATH\Controllers\Cita.php(90): view('cita/editarCita', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cita->editarCita('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cita))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+INFO - 2024-09-26 04:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -38,6 +38,46 @@ $routes->get('/tipo/delete/(:num)','Tipo::delete/$1');
 $routes->get('/tipo/editarTipo/(:num)','Tipo::editartipo/$1');
 $routes->post('/tipo/update','Tipo::update');
 
+$routes->get('/empleado', 'Empleado::index');
+$routes->get('/empleado/addEmpleado', 'Empleado::add');
+$routes->post('/empleado/insert','Empleado::insert');
+$routes->get('/empleado/delete/(:num)','Empleado::delete/$1');
+
+
+$routes->get('/empleado/edit/(:num)','Empleado::edit/$1');
+$routes->post('/empleado/update','empleado::update');
+
+$routes->get('/cliente', 'Cliente::index');
+$routes->get('/cliente/addCliente', 'Cliente::add');
+$routes->post('/cliente/insert','Cliente::insert');
+$routes->get('/cliente/delete/(:num)','Cliente::delete/$1');
+
+
+$routes->get('/cliente/edit/(:num)','Cliente::edit/$1');
+$routes->post('/cliente/update','Cliente::update');
+
+
+$routes->get('/evento', 'Evento::index');
+$routes->get('/evento/addEvento', 'Evento::add');
+$routes->post('/evento/insert','Evento::insert');
+$routes->get('/evento/delete/(:num)','Evento::delete/$1');
+
+$routes->get('/evento/edit/(:num)','Evento::edit/$1');
+$routes->post('/evento/update','Evento::update');
+
+
+
+$routes->get('/cita', 'Cita::index');
+$routes->get('/cita/add', 'Cita::add');
+$routes->post('/cita/insert','Cita::insert');
+$routes->get('/cita/deleteCita/(:num)','Cita::deleteCita/$1');
+
+
+$routes->get('/cita/editarCita/(:num)','Cita::editarCita/$1');
+$routes->post('/cita/update','Cita::update');
+
+
+
 
 
 

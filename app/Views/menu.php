@@ -13,23 +13,27 @@
           <a class="nav-link" href="/producto">Productos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Categorias</a>
+          <a class="nav-link" href="<?= base_url('/tipo/addTipo'); ?>">Categorias</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/marca/addMarca">Marcas</a>
+          <a class="nav-link" href="<?= base_url('/cita'); ?>">Citas</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?=base_url('/proveedor'); ?>">Proveedores</a>
+          <a class="nav-link" href="<?= base_url('/proveedor/addProveedor'); ?>">Proveedores</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+            Otras consultas
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="<?= base_url('/empleado'); ?>">Empleado</a></li>
+            <li><a class="dropdown-item" href="<?= base_url('/cliente'); ?>">Cliente</a></li>
+            <li><a class="dropdown-item" href="<?= base_url('/marca/addMarca'); ?>">Marcas</a></li>
+            <li><a class="dropdown-item" href="<?= base_url('/evento'); ?>">Evento</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Conócenos</a></li>
           </ul>
         </li>
         <li class="nav-item">
