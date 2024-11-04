@@ -16,7 +16,7 @@
                     <th>Precio</th>
                     <th>Stock</th>
                     <th>Descripción</th>
-                    <th>id_marca</th>
+                    <th>Marca</th>
                     <th>Categoria</th>
                     <th>Proveedor</th>
                     <th>Acción</th>

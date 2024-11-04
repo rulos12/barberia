@@ -1,5 +1,5 @@
 <?php
-// producto.php
+// Meotods de producto
 namespace App\Controllers;
 
 
@@ -34,7 +34,7 @@ class Cliente extends BaseController
     //añado funciones para editar 
 
     public function edit($id_cliente)
-    {   //get
+    {   
         $id_cliente = $data['id_cliente'] = $id_cliente;
         $clienteM = model('ClienteM');
         $data['cliente'] = $clienteM->where('id_cliente', $id_cliente)->findAll();
@@ -63,10 +63,9 @@ class Cliente extends BaseController
 
         return redirect()->to(base_url('/cliente'));
     }
-    //modificar de acurdo a los atributos de la tabla views
-    //modifique insertar 
+
     public function insert()
-    { //post
+    { 
         if (! $this->request->is('post')) {
             $this->index();
         }
@@ -85,9 +84,7 @@ class Cliente extends BaseController
             "email" => $_POST['email'],
         ];
 
-        // Valida los datos
         if (! $this->validate($rules)) {
-            // Si la validación falla, vuelve a cargar la vista con los errores
             return
                 view('head') .
                 view('menu') .

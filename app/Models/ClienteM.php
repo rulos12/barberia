@@ -13,7 +13,7 @@ class ClienteM extends Model
     protected $returnType       = 'object';
     protected $useSoftDeletes   = true;
     protected $protectFields    = true;
-    protected $allowedFields    = ['id_cliente','nombreCliente','direccion','telefono','email'];
+    protected $allowedFields    = ['id_cliente', 'nombreCliente', 'direccion', 'telefono', 'email'];
 
     // Dates
     protected $useTimestamps = true;
@@ -38,4 +38,16 @@ class ClienteM extends Model
     protected $afterFind      = [];
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
+
+
+    public function valida($usuario, $password)
+    {
+        $sql = "select * from cliente where email = '" . $usuario . "'
+        and email = '" . $password . "'";
+        $db = db_connect();
+
+        $query = $db->query($sql);
+
+        return $query->getResult();
+    }
 }

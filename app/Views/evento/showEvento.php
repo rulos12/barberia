@@ -3,7 +3,8 @@
 <div class="row">
         <div class="col">
             <h1>Eventos</h1>
-            </br>
+            <a href="<?= base_url('evento/addEvento/'); ?> " class="btn btn-success">Agregar</a>
+
             </div>
     <div class="row">
         <div class="col">
@@ -33,8 +34,7 @@
                     
                 </tbody>
             </table>
-            </br>                
-            <a href="<?= base_url('evento/addEvento/'); ?> " class="btn btn-success">Agregar</a>
+                     
             </div>
         </div>
     </div>

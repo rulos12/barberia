@@ -1,4 +1,4 @@
-<!-- Formulario para agregar productos -->
+<!-- Formulario para agregar cita -->
 <div class="container">
     <div class="row">
         <div class="col">

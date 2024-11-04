@@ -39,7 +39,7 @@ class Evento extends BaseController
     //añado funciones para editar 
 
     public function edit($id_evento)
-    {   //get
+    {   
 
 
         $id_evento = $data['id_evento'] = $id_evento;

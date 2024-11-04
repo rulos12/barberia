@@ -25,7 +25,6 @@ class Proveedor extends BaseController
             "telefono" => $_POST['telefono'],
             "email" => $_POST['email'],
             "contacto" => $_POST['contacto'],
-            "productos" => $_POST['producto']
         ];
 
         $proveedorM = model('ProveedorM');
@@ -66,7 +65,6 @@ class Proveedor extends BaseController
             "telefono" => $_POST['telefono'],
             "email" => $_POST['email'],
             "contacto" => $_POST['contacto'],
-            "productos" => $_POST['productos']
         ];
 
         $proveedorM->set($data)->where('id_proveedor', $idProveedor)->update();

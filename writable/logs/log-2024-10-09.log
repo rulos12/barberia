@@ -1,0 +1,937 @@
+CRITICAL - 2024-10-09 01:33:03 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: compra/addCompra/]
+in APPPATH\Controllers\Compra.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->addCompra()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 01:40:40 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: compra/addCompra/]
+in APPPATH\Controllers\Compra.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->addCompra()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 01:41:22 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: compra/addCompra/]
+in APPPATH\Controllers\Compra.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->addCompra()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 01:41:25 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: compra/addCompra/]
+in APPPATH\Controllers\Compra.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->addCompra()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 01:42:08 --> BadMethodCallException: Call to undefined method App\Models\ProductoM::getDetalleConProducto
+[Method: GET, Route: compra/addCompra/]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Compra.php(34): CodeIgniter\Model->__call('getDetalleConProducto', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->addCompra()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 01:42:27 --> ErrorException: Undefined variable $productos
+[Method: GET, Route: compra/addCompra/]
+in APPPATH\Views\compra\addCompra.php on line 50.
+ 1 APPPATH\Views\compra\addCompra.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\compra\\addCompra.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\compra\\addCompra.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('compra/addCompra', [], true)
+ 5 APPPATH\Controllers\Compra.php(36): view('compra/addCompra', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->addCompra()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 01:44:22 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: compra/addCompra/]
+in APPPATH\Controllers\Compra.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->addCompra()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 01:47:46 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: compra/addCompra/]
+in APPPATH\Controllers\Compra.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->addCompra()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 01:50:12 --> Exception: Error: Modelo DetalleCompraM no cargado correctamente.
+[Method: GET, Route: compra/addCompra/]
+in APPPATH\Controllers\Compra.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->addCompra()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 01:54:07 --> BadMethodCallException: Call to undefined method App\Models\ProductoM::getDetalleConProducto
+[Method: GET, Route: compra/addCompra/]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Compra.php(50): CodeIgniter\Model->__call('getDetalleConProducto', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->addCompra()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 01:54:55 --> BadMethodCallException: Call to undefined method App\Models\ProductoM::getDetalleConProducto
+[Method: GET, Route: compra/addCompra/]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Compra.php(50): CodeIgniter\Model->__call('getDetalleConProducto', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->addCompra()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 01:55:15 --> BadMethodCallException: Call to undefined method App\Models\ProductoM::getDetalleConProducto
+[Method: GET, Route: compra/addCompra/]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Compra.php(40): CodeIgniter\Model->__call('getDetalleConProducto', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->addCompra()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 01:55:23 --> BadMethodCallException: Call to undefined method App\Models\ProductoM::getDetalleConProducto
+[Method: GET, Route: compra/addCompra/]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Compra.php(40): CodeIgniter\Model->__call('getDetalleConProducto', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->addCompra()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 02:41:25 --> ErrorException: Undefined variable $detalleCompras
+[Method: GET, Route: detalleCompra]
+in APPPATH\Views\detalleCompra\showDcompra.php on line 22.
+ 1 APPPATH\Views\detalleCompra\showDcompra.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detalleCompras', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\detalleCompra\\showDcompra.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\detalleCompra\\showDcompra.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalleCompra/showDcompra', [], true)
+ 5 APPPATH\Controllers\DetalleCompra.php(23): view('detalleCompra/showDcompra', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetalleCompra->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleCompra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 02:41:39 --> ErrorException: Undefined variable $id_compra
+[Method: GET, Route: detalleCompra]
+in APPPATH\Views\detalleCompra\showDcompra.php on line 38.
+ 1 APPPATH\Views\detalleCompra\showDcompra.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_compra', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\detalleCompra\\showDcompra.php', 38)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\detalleCompra\\showDcompra.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalleCompra/showDcompra', [], true)
+ 5 APPPATH\Controllers\DetalleCompra.php(23): view('detalleCompra/showDcompra', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetalleCompra->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleCompra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 02:57:21 --> ErrorException: Undefined array key "id_proveedor"
+[Method: POST, Route: compra/insert]
+in APPPATH\Controllers\Compra.php on line 52.
+ 1 APPPATH\Controllers\Compra.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_proveedor"', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Compra.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 03:02:23 --> ErrorException: Attempt to read property "insert_id" on bool
+[Method: POST, Route: compra/insert]
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 594.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(594): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "insert_id" on bool', 'C:\\xampp\\htdocs\\Barberia\\system\\Database\\MySQLi\\Connection.php', 594)
+ 2 SYSTEMPATH\Model.php(926): CodeIgniter\Database\MySQLi\Connection->insertID()
+ 3 APPPATH\Controllers\Compra.php(60): CodeIgniter\Model->__call('insertID', [])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->insert()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 03:02:23 --> ErrorException: Attempt to read property "insert_id" on bool
+[Method: POST, Route: compra/insert]
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 594.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(594): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "insert_id" on bool', 'C:\\xampp\\htdocs\\Barberia\\system\\Database\\MySQLi\\Connection.php', 594)
+ 2 SYSTEMPATH\Model.php(926): CodeIgniter\Database\MySQLi\Connection->insertID()
+ 3 APPPATH\Controllers\Compra.php(60): CodeIgniter\Model->__call('insertID', [])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->insert()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 03:05:52 --> ErrorException: Undefined property: stdClass::$nombre
+[Method: GET, Route: detalleCompra]
+in APPPATH\Views\detalleCompra\showDcompra.php on line 26.
+ 1 APPPATH\Views\detalleCompra\showDcompra.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nombre', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\detalleCompra\\showDcompra.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\detalleCompra\\showDcompra.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalleCompra/showDcompra', [], true)
+ 5 APPPATH\Controllers\DetalleCompra.php(23): view('detalleCompra/showDcompra', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetalleCompra->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleCompra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 03:06:03 --> ErrorException: Undefined property: stdClass::$nombre
+[Method: GET, Route: detalleCompra]
+in APPPATH\Views\detalleCompra\showDcompra.php on line 26.
+ 1 APPPATH\Views\detalleCompra\showDcompra.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nombre', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\detalleCompra\\showDcompra.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\detalleCompra\\showDcompra.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalleCompra/showDcompra', [], true)
+ 5 APPPATH\Controllers\DetalleCompra.php(23): view('detalleCompra/showDcompra', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetalleCompra->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleCompra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 03:23:04 --> ErrorException: Undefined property: stdClass::$id_productos
+[Method: GET, Route: compra/editarCompra/7]
+in APPPATH\Views\compra\editarCompra.php on line 54.
+ 1 APPPATH\Views\compra\editarCompra.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_productos', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\compra\\editarCompra.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\compra\\editarCompra.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('compra/editarCompra', [], true)
+ 5 APPPATH\Controllers\Compra.php(115): view('compra/editarCompra', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->editarCompra('7')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 03:30:21 --> ArgumentCountError: Too few arguments to function App\Controllers\Compra::editarCompra(), 1 passed in C:\xampp\htdocs\Barberia\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: GET, Route: compra/editarCompra/6]
+in APPPATH\Controllers\Compra.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->editarCompra('6')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 03:33:10 --> ArgumentCountError: Too few arguments to function App\Controllers\Compra::editarCompra(), 1 passed in C:\xampp\htdocs\Barberia\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: GET, Route: compra/editarCompra/6]
+in APPPATH\Controllers\Compra.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->editarCompra('6')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 03:35:59 --> ArgumentCountError: Too few arguments to function App\Controllers\Compra::editarCompra(), 1 passed in C:\xampp\htdocs\Barberia\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: GET, Route: compra/editarCompra/6]
+in APPPATH\Controllers\Compra.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->editarCompra('6')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 03:38:40 --> ArgumentCountError: Too few arguments to function App\Controllers\Compra::editarCompra(), 1 passed in C:\xampp\htdocs\Barberia\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: GET, Route: compra/editarCompra/6]
+in APPPATH\Controllers\Compra.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->editarCompra('6')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 03:38:42 --> ArgumentCountError: Too few arguments to function App\Controllers\Compra::editarCompra(), 1 passed in C:\xampp\htdocs\Barberia\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: GET, Route: compra/editarCompra/6]
+in APPPATH\Controllers\Compra.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->editarCompra('6')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 03:38:46 --> ErrorException: Undefined property: stdClass::$id_detalle_compra
+[Method: GET, Route: compra]
+in APPPATH\Views\compra\showCompra.php on line 31.
+ 1 APPPATH\Views\compra\showCompra.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_detalle_compra', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\compra\\showCompra.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\compra\\showCompra.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('compra/showCompra', [], true)
+ 5 APPPATH\Controllers\Compra.php(23): view('compra/showCompra', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 03:39:03 --> ErrorException: Undefined property: stdClass::$id_detalle_compra
+[Method: GET, Route: compra]
+in APPPATH\Views\compra\showCompra.php on line 31.
+ 1 APPPATH\Views\compra\showCompra.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_detalle_compra', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\compra\\showCompra.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\compra\\showCompra.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('compra/showCompra', [], true)
+ 5 APPPATH\Controllers\Compra.php(23): view('compra/showCompra', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 03:43:03 --> ArgumentCountError: Too few arguments to function App\Controllers\Compra::editarCompra(), 1 passed in C:\xampp\htdocs\Barberia\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: GET, Route: compra/editarCompra/7]
+in APPPATH\Controllers\Compra.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->editarCompra('7')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 04:13:54 --> ErrorException: Undefined array key "compras"
+[Method: GET, Route: compra/editarCompra/9]
+in APPPATH\Controllers\Compra.php on line 93.
+ 1 APPPATH\Controllers\Compra.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "compras"', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Compra.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->editarCompra('9')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 04:14:57 --> ErrorException: Undefined array key "compras"
+[Method: GET, Route: compra/editarCompra/9]
+in APPPATH\Controllers\Compra.php on line 93.
+ 1 APPPATH\Controllers\Compra.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "compras"', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Compra.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->editarCompra('9')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 04:15:19 --> ErrorException: Undefined variable $id_proveedor
+[Method: GET, Route: compra/editarCompra/9]
+in APPPATH\Controllers\Compra.php on line 98.
+ 1 APPPATH\Controllers\Compra.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_proveedor', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Compra.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->editarCompra('9')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 04:16:38 --> ErrorException: Undefined property: stdClass::$nombreProveedor
+[Method: GET, Route: compra/editarCompra/9]
+in APPPATH\Views\compra\editarCompra.php on line 55.
+ 1 APPPATH\Views\compra\editarCompra.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nombreProveedor', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\compra\\editarCompra.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\compra\\editarCompra.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('compra/editarCompra', [], true)
+ 5 APPPATH\Controllers\Compra.php(119): view('compra/editarCompra', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->editarCompra('9')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+ERROR - 2024-10-09 04:17:42 --> mysqli_sql_exception: Column 'id_proveedor' in where clause is ambiguous in C:\xampp\htdocs\Barberia\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\Barberia\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `product...', 0)
+#1 C:\xampp\htdocs\Barberia\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 C:\xampp\htdocs\Barberia\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 C:\xampp\htdocs\Barberia\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 C:\xampp\htdocs\Barberia\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Barberia\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Barberia\app\Models\ProductoM.php(60): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Barberia\app\Controllers\Compra.php(102): App\Models\ProductoM->getProductosConProveedor()
+#8 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(933): App\Controllers\Compra->editarCompra('9')
+#9 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+#10 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Barberia\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Barberia\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\Barberia\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\Barberia\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-10-09 04:17:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_proveedor' in where clause is ambiguous
+[Method: GET, Route: compra/editarCompra/9]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `producto`.*, `proveedor`.`nombreProveedor`
+FROM `Producto`
+LEFT JOIN `proveedor` ON `producto`.`id_proveedor` = `proveedor`.`id_proveedor`
+WHERE `id_proveedor` = :id_proveedor:
+AND `Producto`.`deleted_at` IS NULL', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ProductoM.php(60): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Compra.php(102): App\Models\ProductoM->getProductosConProveedor()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->editarCompra('9')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 04:17:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_proveedor' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `producto`.*, `proveedor`.`nombreProveedor`
+FROM `Producto`
+LEFT JOIN `proveedor` ON `producto`.`id_proveedor` = `proveedor`.`id_proveedor`
+WHERE `id_proveedor` = \'22\'
+AND `Producto`.`deleted_at` IS NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `producto`.*, `proveedor`.`nombreProveedor`
+FROM `Producto`
+LEFT JOIN `proveedor` ON `producto`.`id_proveedor` = `proveedor`.`id_proveedor`
+WHERE `id_proveedor` = \'22\'
+AND `Producto`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `producto`.*, `proveedor`.`nombreProveedor`
+FROM `Producto`
+LEFT JOIN `proveedor` ON `producto`.`id_proveedor` = `proveedor`.`id_proveedor`
+WHERE `id_proveedor` = :id_proveedor:
+AND `Producto`.`deleted_at` IS NULL', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\ProductoM.php(60): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Compra.php(102): App\Models\ProductoM->getProductosConProveedor()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->editarCompra('9')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 04:17:42 --> [Caused by] mysqli_sql_exception: Column 'id_proveedor' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `producto`.*, `proveedor`.`nombreProveedor`
+FROM `Producto`
+LEFT JOIN `proveedor` ON `producto`.`id_proveedor` = `proveedor`.`id_proveedor`
+WHERE `id_proveedor` = \'22\'
+AND `Producto`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `producto`.*, `proveedor`.`nombreProveedor`
+FROM `Producto`
+LEFT JOIN `proveedor` ON `producto`.`id_proveedor` = `proveedor`.`id_proveedor`
+WHERE `id_proveedor` = \'22\'
+AND `Producto`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `producto`.*, `proveedor`.`nombreProveedor`
+FROM `Producto`
+LEFT JOIN `proveedor` ON `producto`.`id_proveedor` = `proveedor`.`id_proveedor`
+WHERE `id_proveedor` = \'22\'
+AND `Producto`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `producto`.*, `proveedor`.`nombreProveedor`
+FROM `Producto`
+LEFT JOIN `proveedor` ON `producto`.`id_proveedor` = `proveedor`.`id_proveedor`
+WHERE `id_proveedor` = :id_proveedor:
+AND `Producto`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ProductoM.php(60): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Compra.php(102): App\Models\ProductoM->getProductosConProveedor()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->editarCompra('9')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+ERROR - 2024-10-09 04:20:13 --> mysqli_sql_exception: Column 'id_proveedor' in where clause is ambiguous in C:\xampp\htdocs\Barberia\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\Barberia\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `product...', 0)
+#1 C:\xampp\htdocs\Barberia\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 C:\xampp\htdocs\Barberia\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 C:\xampp\htdocs\Barberia\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 C:\xampp\htdocs\Barberia\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Barberia\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Barberia\app\Models\ProductoM.php(60): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Barberia\app\Controllers\Compra.php(102): App\Models\ProductoM->getProductosConProveedor()
+#8 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(933): App\Controllers\Compra->editarCompra('8')
+#9 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+#10 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Barberia\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Barberia\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\Barberia\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\Barberia\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-10-09 04:20:13 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_proveedor' in where clause is ambiguous
+[Method: GET, Route: compra/editarCompra/8]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `producto`.*, `proveedor`.`nombreProveedor`
+FROM `Producto`
+LEFT JOIN `proveedor` ON `producto`.`id_proveedor` = `proveedor`.`id_proveedor`
+WHERE `id_proveedor` = :id_proveedor:
+AND `Producto`.`deleted_at` IS NULL', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ProductoM.php(60): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Compra.php(102): App\Models\ProductoM->getProductosConProveedor()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->editarCompra('8')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 04:20:13 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_proveedor' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `producto`.*, `proveedor`.`nombreProveedor`
+FROM `Producto`
+LEFT JOIN `proveedor` ON `producto`.`id_proveedor` = `proveedor`.`id_proveedor`
+WHERE `id_proveedor` = \'21\'
+AND `Producto`.`deleted_at` IS NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `producto`.*, `proveedor`.`nombreProveedor`
+FROM `Producto`
+LEFT JOIN `proveedor` ON `producto`.`id_proveedor` = `proveedor`.`id_proveedor`
+WHERE `id_proveedor` = \'21\'
+AND `Producto`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `producto`.*, `proveedor`.`nombreProveedor`
+FROM `Producto`
+LEFT JOIN `proveedor` ON `producto`.`id_proveedor` = `proveedor`.`id_proveedor`
+WHERE `id_proveedor` = :id_proveedor:
+AND `Producto`.`deleted_at` IS NULL', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\ProductoM.php(60): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Compra.php(102): App\Models\ProductoM->getProductosConProveedor()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->editarCompra('8')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 04:20:13 --> [Caused by] mysqli_sql_exception: Column 'id_proveedor' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `producto`.*, `proveedor`.`nombreProveedor`
+FROM `Producto`
+LEFT JOIN `proveedor` ON `producto`.`id_proveedor` = `proveedor`.`id_proveedor`
+WHERE `id_proveedor` = \'21\'
+AND `Producto`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `producto`.*, `proveedor`.`nombreProveedor`
+FROM `Producto`
+LEFT JOIN `proveedor` ON `producto`.`id_proveedor` = `proveedor`.`id_proveedor`
+WHERE `id_proveedor` = \'21\'
+AND `Producto`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `producto`.*, `proveedor`.`nombreProveedor`
+FROM `Producto`
+LEFT JOIN `proveedor` ON `producto`.`id_proveedor` = `proveedor`.`id_proveedor`
+WHERE `id_proveedor` = \'21\'
+AND `Producto`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `producto`.*, `proveedor`.`nombreProveedor`
+FROM `Producto`
+LEFT JOIN `proveedor` ON `producto`.`id_proveedor` = `proveedor`.`id_proveedor`
+WHERE `id_proveedor` = :id_proveedor:
+AND `Producto`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ProductoM.php(60): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Compra.php(102): App\Models\ProductoM->getProductosConProveedor()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->editarCompra('8')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+ERROR - 2024-10-09 04:26:29 --> mysqli_sql_exception: Unknown column 'proveedor.nombreProveedor' in 'field list' in C:\xampp\htdocs\Barberia\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\Barberia\system\Database\MySQLi\Connection.php(312): mysqli->query('select producto...', 0)
+#1 C:\xampp\htdocs\Barberia\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select producto...')
+#2 C:\xampp\htdocs\Barberia\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select producto...')
+#3 C:\xampp\htdocs\Barberia\app\Models\ProductoM.php(68): CodeIgniter\Database\BaseConnection->query('select producto...')
+#4 C:\xampp\htdocs\Barberia\app\Controllers\Compra.php(102): App\Models\ProductoM->getProductosConProveedorid('21')
+#5 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(933): App\Controllers\Compra->editarCompra('8')
+#6 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+#7 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Barberia\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Barberia\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\Barberia\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\Barberia\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-10-09 04:26:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'proveedor.nombreProveedor' in 'field list'
+[Method: GET, Route: compra/editarCompra/8]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\ProductoM.php(68): CodeIgniter\Database\BaseConnection->query('select producto.nombre , proveedor.nombreProveedor
+                from producto where id_proveedor = 21')
+ 2 APPPATH\Controllers\Compra.php(102): App\Models\ProductoM->getProductosConProveedorid('21')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->editarCompra('8')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 04:26:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'proveedor.nombreProveedor' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select producto.nombre , proveedor.nombreProveedor
+                from producto where id_proveedor = 21')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select producto.nombre , proveedor.nombreProveedor
+                from producto where id_proveedor = 21')
+ 3 APPPATH\Models\ProductoM.php(68): CodeIgniter\Database\BaseConnection->query('select producto.nombre , proveedor.nombreProveedor
+                from producto where id_proveedor = 21')
+ 4 APPPATH\Controllers\Compra.php(102): App\Models\ProductoM->getProductosConProveedorid('21')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->editarCompra('8')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 04:26:29 --> [Caused by] mysqli_sql_exception: Unknown column 'proveedor.nombreProveedor' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('select producto.nombre , proveedor.nombreProveedor
+                from producto where id_proveedor = 21', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select producto.nombre , proveedor.nombreProveedor
+                from producto where id_proveedor = 21')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select producto.nombre , proveedor.nombreProveedor
+                from producto where id_proveedor = 21')
+ 4 APPPATH\Models\ProductoM.php(68): CodeIgniter\Database\BaseConnection->query('select producto.nombre , proveedor.nombreProveedor
+                from producto where id_proveedor = 21')
+ 5 APPPATH\Controllers\Compra.php(102): App\Models\ProductoM->getProductosConProveedorid('21')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->editarCompra('8')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 04:28:07 --> ErrorException: Undefined property: stdClass::$id_producto
+[Method: GET, Route: compra/editarCompra/8]
+in APPPATH\Views\compra\editarCompra.php on line 54.
+ 1 APPPATH\Views\compra\editarCompra.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_producto', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\compra\\editarCompra.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\compra\\editarCompra.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('compra/editarCompra', [], true)
+ 5 APPPATH\Controllers\Compra.php(119): view('compra/editarCompra', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->editarCompra('8')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 05:12:42 --> ErrorException: Undefined array key "id_producto"
+[Method: POST, Route: compra/update/]
+in APPPATH\Controllers\Compra.php on line 146.
+ 1 APPPATH\Controllers\Compra.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_producto"', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Compra.php', 146)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->update()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 05:13:30 --> ErrorException: Undefined array key "id_producto"
+[Method: POST, Route: compra/update/]
+in APPPATH\Controllers\Compra.php on line 146.
+ 1 APPPATH\Controllers\Compra.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_producto"', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Compra.php', 146)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->update()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+ERROR - 2024-10-09 05:13:38 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`barberia`.`detalle_compra`, CONSTRAINT `detalle_compra_ibfk_1` FOREIGN KEY (`id_compra`) REFERENCES `compra` (`id_compra`)) in C:\xampp\htdocs\Barberia\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\Barberia\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `detalle...', 0)
+#1 C:\xampp\htdocs\Barberia\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `detalle...')
+#2 C:\xampp\htdocs\Barberia\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `detalle...')
+#3 C:\xampp\htdocs\Barberia\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `detalle...', Array, false)
+#4 C:\xampp\htdocs\Barberia\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Barberia\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\xampp\htdocs\Barberia\system\Model.php(865): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\xampp\htdocs\Barberia\app\Controllers\Compra.php(151): CodeIgniter\Model->update()
+#8 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(933): App\Controllers\Compra->update()
+#9 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+#10 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Barberia\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Barberia\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\Barberia\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\Barberia\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-10-09 05:13:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`barberia`.`detalle_compra`, CONSTRAINT `detalle_compra_ibfk_1` FOREIGN KEY (`id_compra`) REFERENCES `compra` (`id_compra`))
+[Method: POST, Route: compra/update/]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `detalle_compra` SET `id_detalle_compra` = :id_detalle_compra.1:, `id_compra` = :id_compra:, `id_producto` = :id_producto:, `cantidad` = :cantidad:, `precio_unitario` = :precio_unitario:, `updated_at` = :updated_at:
+WHERE `id_detalle_compra` = :id_detalle_compra:', [...], false)
+ 2 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 4 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 5 APPPATH\Controllers\Compra.php(151): CodeIgniter\Model->update()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->update()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 05:13:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`barberia`.`detalle_compra`, CONSTRAINT `detalle_compra_ibfk_1` FOREIGN KEY (`id_compra`) REFERENCES `compra` (`id_compra`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `detalle_compra` SET `id_detalle_compra` = \'3\', `id_compra` = 0, `id_producto` = \'21\', `cantidad` = \'123\', `precio_unitario` = \'10.00\', `updated_at` = \'2024-10-09 05:13:38\'
+WHERE `id_detalle_compra` = \'3\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `detalle_compra` SET `id_detalle_compra` = \'3\', `id_compra` = 0, `id_producto` = \'21\', `cantidad` = \'123\', `precio_unitario` = \'10.00\', `updated_at` = \'2024-10-09 05:13:38\'
+WHERE `id_detalle_compra` = \'3\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `detalle_compra` SET `id_detalle_compra` = :id_detalle_compra.1:, `id_compra` = :id_compra:, `id_producto` = :id_producto:, `cantidad` = :cantidad:, `precio_unitario` = :precio_unitario:, `updated_at` = :updated_at:
+WHERE `id_detalle_compra` = :id_detalle_compra:', [...], false)
+ 4 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 6 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 7 APPPATH\Controllers\Compra.php(151): CodeIgniter\Model->update()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->update()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 05:13:38 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`barberia`.`detalle_compra`, CONSTRAINT `detalle_compra_ibfk_1` FOREIGN KEY (`id_compra`) REFERENCES `compra` (`id_compra`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `detalle_compra` SET `id_detalle_compra` = \'3\', `id_compra` = 0, `id_producto` = \'21\', `cantidad` = \'123\', `precio_unitario` = \'10.00\', `updated_at` = \'2024-10-09 05:13:38\'
+WHERE `id_detalle_compra` = \'3\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `detalle_compra` SET `id_detalle_compra` = \'3\', `id_compra` = 0, `id_producto` = \'21\', `cantidad` = \'123\', `precio_unitario` = \'10.00\', `updated_at` = \'2024-10-09 05:13:38\'
+WHERE `id_detalle_compra` = \'3\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `detalle_compra` SET `id_detalle_compra` = \'3\', `id_compra` = 0, `id_producto` = \'21\', `cantidad` = \'123\', `precio_unitario` = \'10.00\', `updated_at` = \'2024-10-09 05:13:38\'
+WHERE `id_detalle_compra` = \'3\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `detalle_compra` SET `id_detalle_compra` = :id_detalle_compra.1:, `id_compra` = :id_compra:, `id_producto` = :id_producto:, `cantidad` = :cantidad:, `precio_unitario` = :precio_unitario:, `updated_at` = :updated_at:
+WHERE `id_detalle_compra` = :id_detalle_compra:', [...], false)
+ 5 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 7 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 8 APPPATH\Controllers\Compra.php(151): CodeIgniter\Model->update()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->update()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+ERROR - 2024-10-09 15:37:07 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\Barberia\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\Barberia\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('127.0.0.1', 'root', Object(SensitiveParameterValue), 'barberia', 3306, '', 0)
+#1 C:\xampp\htdocs\Barberia\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Barberia\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Barberia\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `compra`...', Array, false)
+#4 C:\xampp\htdocs\Barberia\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Barberia\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Barberia\app\Models\CompraM.php(48): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Barberia\app\Controllers\Compra.php(19): App\Models\CompraM->getCompraConProveedor()
+#8 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(933): App\Controllers\Compra->index()
+#9 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+#10 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Barberia\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Barberia\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\Barberia\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\Barberia\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\Barberia\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\Barberia\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Barberia\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Barberia\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `compra`...', Array, false)
+#3 C:\xampp\htdocs\Barberia\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\Barberia\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\Barberia\app\Models\CompraM.php(48): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\Barberia\app\Controllers\Compra.php(19): App\Models\CompraM->getCompraConProveedor()
+#7 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(933): App\Controllers\Compra->index()
+#8 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+#9 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Barberia\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Barberia\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\Barberia\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\Barberia\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-10-09 15:37:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[Method: GET, Route: compra]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `compra`.*, `proveedor`.`nombreProveedor`
+FROM `compra`
+JOIN `proveedor` ON `compra`.`id_proveedor` = `proveedor`.`id_proveedor`
+WHERE `compra`.`deleted_at` IS NULL', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\CompraM.php(48): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Compra.php(19): App\Models\CompraM->getCompraConProveedor()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+ERROR - 2024-10-09 15:37:26 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\Barberia\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\Barberia\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('127.0.0.1', 'root', Object(SensitiveParameterValue), 'barberia', 3306, '', 0)
+#1 C:\xampp\htdocs\Barberia\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Barberia\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Barberia\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `compra`...', Array, false)
+#4 C:\xampp\htdocs\Barberia\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Barberia\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Barberia\app\Models\CompraM.php(48): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Barberia\app\Controllers\Compra.php(19): App\Models\CompraM->getCompraConProveedor()
+#8 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(933): App\Controllers\Compra->index()
+#9 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+#10 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Barberia\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Barberia\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\Barberia\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\Barberia\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\Barberia\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\Barberia\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Barberia\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Barberia\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `compra`...', Array, false)
+#3 C:\xampp\htdocs\Barberia\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\Barberia\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\Barberia\app\Models\CompraM.php(48): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\Barberia\app\Controllers\Compra.php(19): App\Models\CompraM->getCompraConProveedor()
+#7 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(933): App\Controllers\Compra->index()
+#8 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+#9 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Barberia\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Barberia\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\Barberia\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\Barberia\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-10-09 15:37:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[Method: GET, Route: compra]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `compra`.*, `proveedor`.`nombreProveedor`
+FROM `compra`
+JOIN `proveedor` ON `compra`.`id_proveedor` = `proveedor`.`id_proveedor`
+WHERE `compra`.`deleted_at` IS NULL', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\CompraM.php(48): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Compra.php(19): App\Models\CompraM->getCompraConProveedor()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 16:01:41 --> ErrorException: Undefined variable $detallecompras
+[Method: GET, Route: compra]
+in APPPATH\Views\compra\showCompra.php on line 56.
+ 1 APPPATH\Views\compra\showCompra.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detallecompras', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\compra\\showCompra.php', 56)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\compra\\showCompra.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('compra/showCompra', [], true)
+ 5 APPPATH\Controllers\Compra.php(23): view('compra/showCompra', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 16:03:23 --> ErrorException: Undefined variable $detallecompras
+[Method: GET, Route: compra]
+in APPPATH\Views\compra\showCompra.php on line 56.
+ 1 APPPATH\Views\compra\showCompra.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detallecompras', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\compra\\showCompra.php', 56)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\compra\\showCompra.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('compra/showCompra', [], true)
+ 5 APPPATH\Controllers\Compra.php(23): view('compra/showCompra', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 16:03:32 --> ErrorException: Undefined variable $detallecompras
+[Method: GET, Route: compra]
+in APPPATH\Views\compra\showCompra.php on line 56.
+ 1 APPPATH\Views\compra\showCompra.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detallecompras', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\compra\\showCompra.php', 56)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\compra\\showCompra.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('compra/showCompra', [], true)
+ 5 APPPATH\Controllers\Compra.php(23): view('compra/showCompra', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 16:05:12 --> ArgumentCountError: Too few arguments to function App\Models\DetalleCompraM::getDetalleCompraWhere(), 0 passed in C:\xampp\htdocs\Barberia\app\Controllers\Compra.php on line 19 and exactly 1 expected
+[Method: GET, Route: compra]
+in APPPATH\Models\DetalleCompraM.php on line 51.
+ 1 APPPATH\Controllers\Compra.php(19): App\Models\DetalleCompraM->getDetalleCompraWhere()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-09 16:11:29 --> ArgumentCountError: Too few arguments to function App\Controllers\Compra::index(), 0 passed in C:\xampp\htdocs\Barberia\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: compra]
+in APPPATH\Controllers\Compra.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')

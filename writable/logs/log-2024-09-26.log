@@ -44,3 +44,147 @@ in APPPATH\Views\cita\editarCita.php on line 24.
 11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
 INFO - 2024-09-26 04:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 05:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 05:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 20:14:39 --> ErrorException: Undefined array key "id_cliente"
+[Method: POST, Route: compra/insert]
+in APPPATH\Controllers\Compra.php on line 40.
+ 1 APPPATH\Controllers\Compra.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_cliente"', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Compra.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-09-26 20:17:44 --> ErrorException: Undefined array key "fecha_compra"
+[Method: POST, Route: compra/insert]
+in APPPATH\Controllers\Compra.php on line 41.
+ 1 APPPATH\Controllers\Compra.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fecha_compra"', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Compra.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+ERROR - 2024-09-26 20:40:39 --> mysqli_sql_exception: Unknown column 'producto.nombreProducto' in 'field list' in C:\xampp\htdocs\Barberia\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\Barberia\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `detalle...', 0)
+#1 C:\xampp\htdocs\Barberia\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `detalle...')
+#2 C:\xampp\htdocs\Barberia\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `detalle...')
+#3 C:\xampp\htdocs\Barberia\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `detalle...', Array, false)
+#4 C:\xampp\htdocs\Barberia\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Barberia\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Barberia\app\Models\DetalleCompraM.php(49): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Barberia\app\Controllers\DetalleCompra.php(15): App\Models\DetalleCompraM->getDetalleCompraCon()
+#8 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(933): App\Controllers\DetalleCompra->index()
+#9 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleCompra))
+#10 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Barberia\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Barberia\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\Barberia\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\Barberia\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-09-26 20:40:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'producto.nombreProducto' in 'field list'
+[Method: GET, Route: detalleCompra]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `detalle_compra`.*, `producto`.`nombreProducto`
+FROM `detalle_compra`
+LEFT JOIN `producto` ON `detalle_compra`.`id_producto` = `producto`.`id_producto`
+WHERE `detalle_compra`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\DetalleCompraM.php(49): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\DetalleCompra.php(15): App\Models\DetalleCompraM->getDetalleCompraCon()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetalleCompra->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleCompra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-09-26 20:40:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'producto.nombreProducto' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `detalle_compra`.*, `producto`.`nombreProducto`
+FROM `detalle_compra`
+LEFT JOIN `producto` ON `detalle_compra`.`id_producto` = `producto`.`id_producto`
+WHERE `detalle_compra`.`deleted_at` IS NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `detalle_compra`.*, `producto`.`nombreProducto`
+FROM `detalle_compra`
+LEFT JOIN `producto` ON `detalle_compra`.`id_producto` = `producto`.`id_producto`
+WHERE `detalle_compra`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `detalle_compra`.*, `producto`.`nombreProducto`
+FROM `detalle_compra`
+LEFT JOIN `producto` ON `detalle_compra`.`id_producto` = `producto`.`id_producto`
+WHERE `detalle_compra`.`deleted_at` IS NULL', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\DetalleCompraM.php(49): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\DetalleCompra.php(15): App\Models\DetalleCompraM->getDetalleCompraCon()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetalleCompra->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleCompra))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-09-26 20:40:39 --> [Caused by] mysqli_sql_exception: Unknown column 'producto.nombreProducto' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `detalle_compra`.*, `producto`.`nombreProducto`
+FROM `detalle_compra`
+LEFT JOIN `producto` ON `detalle_compra`.`id_producto` = `producto`.`id_producto`
+WHERE `detalle_compra`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `detalle_compra`.*, `producto`.`nombreProducto`
+FROM `detalle_compra`
+LEFT JOIN `producto` ON `detalle_compra`.`id_producto` = `producto`.`id_producto`
+WHERE `detalle_compra`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `detalle_compra`.*, `producto`.`nombreProducto`
+FROM `detalle_compra`
+LEFT JOIN `producto` ON `detalle_compra`.`id_producto` = `producto`.`id_producto`
+WHERE `detalle_compra`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `detalle_compra`.*, `producto`.`nombreProducto`
+FROM `detalle_compra`
+LEFT JOIN `producto` ON `detalle_compra`.`id_producto` = `producto`.`id_producto`
+WHERE `detalle_compra`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\DetalleCompraM.php(49): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\DetalleCompra.php(15): App\Models\DetalleCompraM->getDetalleCompraCon()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetalleCompra->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleCompra))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-09-26 20:43:15 --> ErrorException: Undefined variable $clientes
+[Method: GET, Route: detalleCompra/addDetalle/]
+in APPPATH\Views\detalleCompra\addDetalle.php on line 13.
+ 1 APPPATH\Views\detalleCompra\addDetalle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\detalleCompra\\addDetalle.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\detalleCompra\\addDetalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalleCompra/addDetalle', [], true)
+ 5 APPPATH\Controllers\DetalleCompra.php(36): view('detalleCompra/addDetalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetalleCompra->addDetalle()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleCompra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-09-26 20:49:02 --> ErrorException: Undefined property: stdClass::$id_producto
+[Method: GET, Route: detalleCompra/addDetalle/]
+in APPPATH\Views\detalleCompra\addDetalle.php on line 19.
+ 1 APPPATH\Views\detalleCompra\addDetalle.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_producto', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\detalleCompra\\addDetalle.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\detalleCompra\\addDetalle.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('detalleCompra/addDetalle', [], true)
+ 5 APPPATH\Controllers\DetalleCompra.php(36): view('detalleCompra/addDetalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetalleCompra->addDetalle()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleCompra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')

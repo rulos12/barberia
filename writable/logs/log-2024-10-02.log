@@ -1,0 +1,145 @@
+INFO - 2024-10-02 05:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 05:31:47 --> ErrorException: Undefined array key "id_proveedor"
+[Method: POST, Route: compra/insert]
+in APPPATH\Controllers\Compra.php on line 40.
+ 1 APPPATH\Controllers\Compra.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_proveedor"', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Compra.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-02 05:32:30 --> ErrorException: Undefined array key "id_proveedor"
+[Method: POST, Route: pedido/insert]
+in APPPATH\Controllers\Pedido.php on line 40.
+ 1 APPPATH\Controllers\Pedido.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_proveedor"', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Pedido.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pedido->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedido))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-02 05:42:07 --> ErrorException: Undefined array key "id_pedido"
+[Method: POST, Route: pedido/insert]
+in APPPATH\Controllers\Pedido.php on line 40.
+ 1 APPPATH\Controllers\Pedido.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_pedido"', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Pedido.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pedido->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedido))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+INFO - 2024-10-02 15:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:39:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 15:44:08 --> ErrorException: Undefined property: stdClass::$nombreCliente
+[Method: GET, Route: pedido]
+in APPPATH\Views\pedido\showPedido.php on line 24.
+ 1 APPPATH\Views\pedido\showPedido.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nombreCliente', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\pedido\\showPedido.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\pedido\\showPedido.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('pedido/showPedido', [], true)
+ 5 APPPATH\Controllers\Pedido.php(19): view('pedido/showPedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pedido->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedido))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+ERROR - 2024-10-02 15:44:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`left`
+WHERE `pedido`.`deleted_at` IS NULL' at line 3 in C:\xampp\htdocs\Barberia\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\Barberia\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `pedido`...', 0)
+#1 C:\xampp\htdocs\Barberia\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedido`...')
+#2 C:\xampp\htdocs\Barberia\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedido`...')
+#3 C:\xampp\htdocs\Barberia\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `pedido`...', Array, false)
+#4 C:\xampp\htdocs\Barberia\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Barberia\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Barberia\app\Models\PedidoM.php(48): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Barberia\app\Controllers\Pedido.php(15): App\Models\PedidoM->getPedidoConCliente()
+#8 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(933): App\Controllers\Pedido->index()
+#9 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedido))
+#10 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Barberia\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Barberia\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\Barberia\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\Barberia\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-10-02 15:44:58 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`left`
+WHERE `pedido`.`deleted_at` IS NULL' at line 3
+[Method: GET, Route: pedido]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `pedido`.*, `cliente`.`nombreCliente`
+FROM `pedido`
+JOIN `cliente` ON `pedido`.`id_cliente` = `cliente`.`id_cliente` `left`
+WHERE `pedido`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\PedidoM.php(48): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Pedido.php(15): App\Models\PedidoM->getPedidoConCliente()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pedido->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedido))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-02 15:44:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`left`
+WHERE `pedido`.`deleted_at` IS NULL' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedido`.*, `cliente`.`nombreCliente`
+FROM `pedido`
+JOIN `cliente` ON `pedido`.`id_cliente` = `cliente`.`id_cliente` `left`
+WHERE `pedido`.`deleted_at` IS NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedido`.*, `cliente`.`nombreCliente`
+FROM `pedido`
+JOIN `cliente` ON `pedido`.`id_cliente` = `cliente`.`id_cliente` `left`
+WHERE `pedido`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `pedido`.*, `cliente`.`nombreCliente`
+FROM `pedido`
+JOIN `cliente` ON `pedido`.`id_cliente` = `cliente`.`id_cliente` `left`
+WHERE `pedido`.`deleted_at` IS NULL', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\PedidoM.php(48): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Pedido.php(15): App\Models\PedidoM->getPedidoConCliente()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pedido->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedido))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-02 15:44:58 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`left`
+WHERE `pedido`.`deleted_at` IS NULL' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `pedido`.*, `cliente`.`nombreCliente`
+FROM `pedido`
+JOIN `cliente` ON `pedido`.`id_cliente` = `cliente`.`id_cliente` `left`
+WHERE `pedido`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedido`.*, `cliente`.`nombreCliente`
+FROM `pedido`
+JOIN `cliente` ON `pedido`.`id_cliente` = `cliente`.`id_cliente` `left`
+WHERE `pedido`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedido`.*, `cliente`.`nombreCliente`
+FROM `pedido`
+JOIN `cliente` ON `pedido`.`id_cliente` = `cliente`.`id_cliente` `left`
+WHERE `pedido`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `pedido`.*, `cliente`.`nombreCliente`
+FROM `pedido`
+JOIN `cliente` ON `pedido`.`id_cliente` = `cliente`.`id_cliente` `left`
+WHERE `pedido`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\PedidoM.php(48): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Pedido.php(15): App\Models\PedidoM->getPedidoConCliente()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pedido->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedido))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')

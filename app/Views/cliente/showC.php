@@ -1,9 +1,9 @@
 <div class="container">
-<!-- show.php -->
+<!-- ver cliente -->
 <div class="row">
         <div class="col">
             <h1>Clientes</h1>
-            </br>
+            <a href="<?= base_url('cliente/addCliente/'); ?> " class="btn btn-success">Agregar</a>
             </div>
     <div class="row">
         <div class="col">
@@ -35,7 +35,7 @@
                 </tbody>
             </table>
             </br>                
-            <a href="<?= base_url('cliente/addCliente/'); ?> " class="btn btn-success">Agregar</a>
+            
             </div>
         </div>
     </div>

@@ -1,0 +1,198 @@
+ERROR - 2024-10-21 16:58:18 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\Barberia\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\Barberia\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('127.0.0.1', 'root', Object(SensitiveParameterValue), 'barberia', 3306, '', 0)
+#1 C:\xampp\htdocs\Barberia\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Barberia\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Barberia\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 C:\xampp\htdocs\Barberia\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Barberia\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Barberia\app\Models\ProductoM.php(87): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Barberia\app\Controllers\Producto.php(15): App\Models\ProductoM->getProductosCon()
+#8 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(933): App\Controllers\Producto->index()
+#9 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#10 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Barberia\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Barberia\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\Barberia\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\Barberia\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\Barberia\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\Barberia\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Barberia\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Barberia\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#3 C:\xampp\htdocs\Barberia\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\Barberia\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\Barberia\app\Models\ProductoM.php(87): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\Barberia\app\Controllers\Producto.php(15): App\Models\ProductoM->getProductosCon()
+#7 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(933): App\Controllers\Producto->index()
+#8 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#9 C:\xampp\htdocs\Barberia\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Barberia\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Barberia\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\Barberia\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\Barberia\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-10-21 16:58:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[Method: GET, Route: producto]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `producto`.*, `marca`.`nombreMarca`, `proveedor`.`nombreProveedor`, `tipo`.`nombreTipo`
+FROM `Producto`
+LEFT JOIN `marca` ON `producto`.`id_marca` = `marca`.`id_marca`
+LEFT JOIN `proveedor` ON `producto`.`id_proveedor` = `proveedor`.`id_proveedor`
+LEFT JOIN `tipo` ON `producto`.`id_tipo` = `tipo`.`id_tipo`
+WHERE `Producto`.`deleted_at` IS NULL', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\ProductoM.php(87): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Producto.php(15): App\Models\ProductoM->getProductosCon()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-21 20:35:34 --> ArgumentCountError: Too few arguments to function App\Models\DetalleCompraM::getDetalleCompraWhere(), 0 passed in C:\xampp\htdocs\Barberia\app\Controllers\Compra.php on line 18 and exactly 1 expected
+[Method: GET, Route: compra]
+in APPPATH\Models\DetalleCompraM.php on line 51.
+ 1 APPPATH\Controllers\Compra.php(18): App\Models\DetalleCompraM->getDetalleCompraWhere()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-21 20:35:57 --> ArgumentCountError: Too few arguments to function App\Models\DetalleCompraM::getDetalleCompraWhere(), 0 passed in C:\xampp\htdocs\Barberia\app\Controllers\Compra.php on line 18 and exactly 1 expected
+[Method: GET, Route: compra]
+in APPPATH\Models\DetalleCompraM.php on line 51.
+ 1 APPPATH\Controllers\Compra.php(18): App\Models\DetalleCompraM->getDetalleCompraWhere()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-21 20:36:28 --> ArgumentCountError: Too few arguments to function App\Models\DetalleCompraM::getDetalleCompraWhere(), 0 passed in C:\xampp\htdocs\Barberia\app\Controllers\Compra.php on line 18 and exactly 1 expected
+[Method: GET, Route: compra]
+in APPPATH\Models\DetalleCompraM.php on line 51.
+ 1 APPPATH\Controllers\Compra.php(18): App\Models\DetalleCompraM->getDetalleCompraWhere()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-21 20:36:44 --> ArgumentCountError: Too few arguments to function App\Models\DetalleCompraM::getDetalleCompraWhere(), 0 passed in C:\xampp\htdocs\Barberia\app\Controllers\Compra.php on line 18 and exactly 1 expected
+[Method: GET, Route: compra]
+in APPPATH\Models\DetalleCompraM.php on line 51.
+ 1 APPPATH\Controllers\Compra.php(18): App\Models\DetalleCompraM->getDetalleCompraWhere()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-21 20:36:49 --> ArgumentCountError: Too few arguments to function App\Models\DetalleCompraM::getDetalleCompraWhere(), 0 passed in C:\xampp\htdocs\Barberia\app\Controllers\Compra.php on line 18 and exactly 1 expected
+[Method: GET, Route: compra]
+in APPPATH\Models\DetalleCompraM.php on line 51.
+ 1 APPPATH\Controllers\Compra.php(18): App\Models\DetalleCompraM->getDetalleCompraWhere()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-21 20:36:56 --> ArgumentCountError: Too few arguments to function App\Models\DetalleCompraM::getDetalleCompraWhere(), 0 passed in C:\xampp\htdocs\Barberia\app\Controllers\Compra.php on line 18 and exactly 1 expected
+[Method: GET, Route: compra]
+in APPPATH\Models\DetalleCompraM.php on line 51.
+ 1 APPPATH\Controllers\Compra.php(18): App\Models\DetalleCompraM->getDetalleCompraWhere()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-21 20:38:11 --> ArgumentCountError: Too few arguments to function App\Models\DetalleCompraM::getDetalleCompraWhere(), 0 passed in C:\xampp\htdocs\Barberia\app\Controllers\Compra.php on line 18 and exactly 1 expected
+[Method: GET, Route: compra]
+in APPPATH\Models\DetalleCompraM.php on line 51.
+ 1 APPPATH\Controllers\Compra.php(18): App\Models\DetalleCompraM->getDetalleCompraWhere()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-21 20:38:29 --> ArgumentCountError: Too few arguments to function App\Models\DetalleCompraM::getDetalleCompraWhere(), 0 passed in C:\xampp\htdocs\Barberia\app\Controllers\Compra.php on line 18 and exactly 1 expected
+[Method: GET, Route: compra]
+in APPPATH\Models\DetalleCompraM.php on line 51.
+ 1 APPPATH\Controllers\Compra.php(18): App\Models\DetalleCompraM->getDetalleCompraWhere()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-21 20:38:45 --> ArgumentCountError: Too few arguments to function App\Models\DetalleCompraM::getDetalleCompraWhere(), 0 passed in C:\xampp\htdocs\Barberia\app\Controllers\Compra.php on line 18 and exactly 1 expected
+[Method: GET, Route: compra]
+in APPPATH\Models\DetalleCompraM.php on line 51.
+ 1 APPPATH\Controllers\Compra.php(18): App\Models\DetalleCompraM->getDetalleCompraWhere()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-21 20:39:01 --> ArgumentCountError: Too few arguments to function App\Models\DetalleCompraM::getDetalleCompraWhere(), 0 passed in C:\xampp\htdocs\Barberia\app\Controllers\Compra.php on line 18 and exactly 1 expected
+[Method: GET, Route: compra]
+in APPPATH\Models\DetalleCompraM.php on line 51.
+ 1 APPPATH\Controllers\Compra.php(18): App\Models\DetalleCompraM->getDetalleCompraWhere()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-21 20:41:00 --> ErrorException: Undefined variable $detallecomprasWhere
+[Method: GET, Route: compra]
+in APPPATH\Views\compra\showCompra.php on line 56.
+ 1 APPPATH\Views\compra\showCompra.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detallecomprasWhere', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\compra\\showCompra.php', 56)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\compra\\showCompra.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('compra/showCompra', [], true)
+ 5 APPPATH\Controllers\Compra.php(25): view('compra/showCompra', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-21 20:45:07 --> ErrorException: Undefined variable $productos
+[Method: GET, Route: pedido/addPedido/]
+in APPPATH\Views\pedido\addPedido.php on line 49.
+ 1 APPPATH\Views\pedido\addPedido.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\pedido\\addPedido.php', 49)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\pedido\\addPedido.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('pedido/addPedido', [], true)
+ 5 APPPATH\Controllers\Pedido.php(30): view('pedido/addPedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pedido->addPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedido))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')

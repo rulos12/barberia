@@ -1,0 +1,359 @@
+/**estilos del usuario */
+
+:root {
+    --background-color: #ffffff;
+    --primary-color: #2C2C2C;
+    --green-color: #2F4F4F;
+}
+
+.container-nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+
+.container-hero {
+    background-color: var(--background-color);
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+
+
+
+.anuncion-bar {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.announcement-bar__message {
+    text-align: center;
+    padding: 1rem 0;
+    margin: 0;
+    letter-spacing: .1rem;
+    min-height: 3.8rem;
+}
+
+
+.container-logo {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+
+
+.logo-header {
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.container-nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.container-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+
+.search-logo {
+    margin-right: 1.5rem;
+    left: 162px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    /* Centrar el menú */
+    flex-grow: 1;
+    /* Permite que este contenedor crezca y ocupe espacio */
+    left: 400px;
+    position: absolute;
+
+}
+
+.menu {
+    display: flex;
+    gap: 12.1rem;
+
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: black;
+    font-weight: 400;
+    position: absolute;
+}
+
+
+.Inicio {
+    width: 1920px;
+    height: 1024px;
+    position: relative;
+    background: white;
+}
+
+
+
+
+.Rectangle2 {
+    width: 1349px;
+    height: 586px;
+    left: 0;
+    top: 270px;
+    position: absolute;
+    background: #2F4F4F;
+}
+
+.Brdch211 {
+    left: 840px;
+    top: 200px;
+    position: absolute;
+    border-radius: 15px;
+}
+
+.text {
+
+    left: 115px;
+    top: 320px;
+    position: absolute;
+    opacity: 0.99;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 27px;
+    font-family: Marcellus;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+.Tienda {
+    width: 145px;
+    height: 46px;
+    left: 1073px;
+    top: 250px;
+    position: absolute;
+    color: rgba(0, 0, 0, 0.80);
+    font-size: 32px;
+    font-family: Marcellus SC;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.HazUnaCita {
+    width: 272px;
+    height: 46px;
+    left: 653px;
+    top: 286px;
+    position: absolute;
+    color: rgba(0, 0, 0, 0.80);
+    font-size: 32px;
+    font-family: Marcellus SC;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Th1 {
+    width: 210px;
+    height: 206px;
+    left: 855px;
+    top: 81px;
+    position: absolute;
+}
+
+.Image1 {
+    left: 1200px;
+    position: absolute;
+}
+
+.Image1 a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: black;
+    font-weight: 400;
+    position: relative;
+    margin: .3em;
+}
+
+.Search {
+    left: 110px;
+    position: absolute;
+}
+
+.Search a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: black;
+    font-weight: 400;
+    position: relative;
+
+}
+
+
+.TheKingOfBarbershop {
+    left: 115px;
+    top: 130px;
+    position: absolute;
+    opacity: 0.90;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 66px;
+    font-family: Marcellus SC;
+    font-weight: 200;
+    word-wrap: break-word;
+}
+
+
+/**Estilos del Formulario */
+
+.InicioDeSesiN {
+    color: rgba(9.56, 9.56, 9.56, 0.80);
+    font-size: 60px;
+    font-family: 'Marcellus SC';
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.mainSesion {
+    padding-top: 25px;
+}
+
+.input-container input {
+    padding: 10px;
+    font-size: 19px;
+    font-family: 'Marcellus';
+    width: 100%;
+    max-width: 400px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+/* Botones */
+.btn-custom {
+    background-color: #d6b341;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: 'Marcellus';
+    width: auto;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #c9a73c;
+    /* Color al pasar el cursor */
+}
+
+.log {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+    position: relative;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+/**imagen de prueba */
+.imgPrincipal {
+    width: 600px;
+    height: 300px;
+    background-color: darkgrey;
+    display: block;
+}
+
+.imgSecundaria {
+    width: 90%;
+    height: 200px;
+    background-color: darkgreen;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.producto {
+    margin-bottom: 60px;
+}
+
+
+/**estilos de editar perfil */
+
+.right {
+    flex: 1;
+}
+
+
+.right input {
+    font-family: 'Marcellus SC';
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.textEdit {
+    color: rgba(9.56, 9.56, 9.56, 0.80);
+    font-size: 20px;
+    font-family: 'Marcellus SC';
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+
+/**Boton agregar */
+.input-group {
+    max-width: 120px;
+}
+.form-control {
+    text-align: center;
+}

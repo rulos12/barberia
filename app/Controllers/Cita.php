@@ -1,8 +1,8 @@
 <?php
-// metodos CRUD de productos
+// metodos CRUD de Citas
 namespace App\Controllers;
 
-use App\Models\ProductoM;
+use App\Models\CitaM;
 
 class Cita extends BaseController
 {

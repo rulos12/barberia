@@ -51,6 +51,31 @@ class ProductoM extends Model
                     ->findAll();
     }
 
+    public function getProductosConProveedor()
+    {
+        // Consultas para obtener solo el nombre de la marca
+
+        return $this->select('producto.*, proveedor.nombreProveedor')
+                    ->join('proveedor', 'producto.id_proveedor = proveedor.id_proveedor', 'left')
+                    ->findAll();
+    }
+    public function getProductosConProveedorid($idProveedor)
+{
+    $db = db_connect();
+
+    
+    $sql = "SELECT producto.*, proveedor.nombreProveedor 
+            FROM producto 
+            JOIN proveedor ON producto.id_proveedor = proveedor.id_proveedor 
+            WHERE producto.id_proveedor = ?";
+    
+   
+    $query = $db->query($sql, [$idProveedor]);
+
+   
+    return $query->getResult();
+}
+
     public function getProductosCon()
     {
         // Consultas para obtener solo el nombre de la marca, proveedor, tipo

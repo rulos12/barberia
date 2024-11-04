@@ -1,7 +1,7 @@
 <!-- Formulario que actualiza el proveedor -->
 <div class="container">
     <div class="row">
-        <div class="col-4 p-4">
+        <div class="col-4 p-3">
             <h2>Actualizar Proveedor</h2>
 
             <form action="<?= base_url('proveedor/update'); ?>" method="POST">
@@ -32,18 +32,13 @@
                     class="form-control" id="contacto" placeholder="contacto">
                 <input type="hidden" name="id_proveedor" value="<?= $proveedor[0]->id_proveedor; ?>">
 
-                <label for="productos" class="form-label">Productos</label>
-                <input name="productos" type="text" value="<?= $proveedor[0]->productos; ?>"
-                    class="form-control" id="productos" placeholder="productos">
-                <input type="hidden" name="id_proveedor" value="<?= $proveedor[0]->id_proveedor; ?>">
-
 
 
 
                 <input type="submit" class="btn btn-success mt-3" name="Guardar" value="Guardar">
             </form>
         </div>
-        <div class="col-8 p-4">
+        <div class="col-4 p-3">
             <table class="table table-striped table-bordered">
                 <thead>
                     <th>idProveedor</th>
@@ -52,7 +47,6 @@
                     <th>Telefono</th>
                     <th>Email</th>
                     <th>Contacto</th>
-                    <th>Productos</th>
                     <th>Acciones</th>
                 </thead>
                 <tbody>
@@ -64,7 +58,6 @@
                             <td><?= $key->telefono; ?></td>
                             <td><?= $key->email; ?></td>
                             <td><?= $key->contacto; ?></td>
-                            <td><?= $key->productos; ?></td>
                             <td>
                                 <a href="<?= base_url('proveedor/delete/' . $key->id_proveedor); ?> " class="btn btn-danger">Borrar</a>
                                 <a href="<?= base_url('proveedor/editarProveedor/' . $key->id_proveedor); ?> " class="btn btn-warning">Modificar</a>

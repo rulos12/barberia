@@ -1,0 +1,26 @@
+CRITICAL - 2024-10-18 17:04:06 --> ErrorException: Undefined variable $detallecomprasWhere
+[Method: GET, Route: compra]
+in APPPATH\Views\compra\showCompra.php on line 56.
+ 1 APPPATH\Views\compra\showCompra.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detallecomprasWhere', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\compra\\showCompra.php', 56)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\compra\\showCompra.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('compra/showCompra', [], true)
+ 5 APPPATH\Controllers\Compra.php(26): view('compra/showCompra', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-10-18 17:06:46 --> ArgumentCountError: Too few arguments to function App\Models\DetalleCompraM::getDetalleCompraWhere(), 0 passed in C:\xampp\htdocs\Barberia\app\Controllers\Compra.php on line 18 and exactly 1 expected
+[Method: GET, Route: compra]
+in APPPATH\Models\DetalleCompraM.php on line 51.
+ 1 APPPATH\Controllers\Compra.php(18): App\Models\DetalleCompraM->getDetalleCompraWhere()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Compra->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compra))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')

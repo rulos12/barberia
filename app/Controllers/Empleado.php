@@ -1,5 +1,5 @@
 <?php
-// producto.php
+// Metodos CRUD empleado
 namespace App\Controllers;
 
 

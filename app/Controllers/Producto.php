@@ -11,7 +11,7 @@ class Producto extends BaseController
 
 
         $productoM = model('ProductoM');
-       
+
         $data['productos']  = $productoM->getProductosCon();
         return
             view('head') .
@@ -74,7 +74,7 @@ class Producto extends BaseController
 
         $marcaM = model('MarcaM');
         $data['marcas'] = $marcaM->findAll();
-        
+
 
         $idProducto = $data['id_producto'] = $idProducto;
         $productoM = model('ProductoM');
@@ -106,5 +106,33 @@ class Producto extends BaseController
         $productoM->set($data)->where('id_producto', $idProducto)->update();
 
         return redirect()->to(base_url('/producto'));
+    }
+    public function listaProducto()
+    {
+        $productoM = model('ProductoM');
+        $marcaM = model('MarcaM');
+        $data['marcas'] = $marcaM->findAll();
+
+        $data['productos']  = $productoM->getProductosConMarca();
+
+        return view('usuario/headUsuario') .
+            view('usuario/header') .
+            view('usuario/listaProducto', $data) .
+            view('footer');
+    }
+    public function detalleProducto($idProducto)
+    {
+        $productoM = model('ProductoM');
+        $marcaM = model('MarcaM');
+        $data['marcas'] = $marcaM->findAll();
+        
+        $productoM = model('ProductoM');
+        $data['producto']  = $productoM->where('id_producto', $idProducto)->getProductosConMarca();
+        $data['productos']  = $productoM->getProductosConMarca();
+
+        return view('usuario/headUsuario') .
+            view('usuario/header') .
+            view('usuario/detalleProducto', $data) .
+            view('footer');
     }
 }

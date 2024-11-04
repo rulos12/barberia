@@ -14,7 +14,7 @@ class ProveedorM extends Model
     protected $returnType       = 'object';
     protected $useSoftDeletes   = true;
     protected $protectFields    = true;
-    protected $allowedFields    = ['id_proveedor','nombreProveedor', 'direccion','telefono', 'email','contacto','productos'];
+    protected $allowedFields    = ['id_proveedor','nombreProveedor', 'direccion','telefono', 'email','contacto',];
 
     // Dates
     protected $useTimestamps = true;
