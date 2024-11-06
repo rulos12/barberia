@@ -125,3 +125,10 @@ $routes->get('/cita/registrar', 'Pagina::addCita');
 
 $routes->get('/producto/lista', 'Producto::listaProducto');
 $routes->get('/producto/detalle/(:num)', 'Producto::detalleProducto/$1');
+
+
+/**Carrito usuario */
+
+$routes->get('/cart/empty', 'Pagina::carritoEmpty');
+$routes->get('/cart', 'Pagina::cart');
+

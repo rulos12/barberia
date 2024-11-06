@@ -1,5 +1,4 @@
 <div class="container"> <!--Lista de Productos -->
-    <hr>
     <div class="row">
         <div class=" mainSesion  text-center">
             <h1 class="InicioDeSesiN">Productos</h1>

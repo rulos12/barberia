@@ -1,5 +1,4 @@
 <main>
-    <hr>
     <div class="mainSesion text-center">
         <h1 class="InicioDeSesiN">Crear cuenta</h1>
         <div class="input-container mx-auto" style="max-width: 400px;">

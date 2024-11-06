@@ -98,6 +98,20 @@ class Pagina extends BaseController
             view('usuario/addCita') .
             view('footer');
     }
+    public function carritoEmpty()
+    {
+        return view('usuario/headUsuario') .
+            view('usuario/header') .
+            view('usuario/carritoEmpty') .
+            view('footer');
+    }
+    public function cart()
+    {
+        return view('usuario/headUsuario') .
+            view('usuario/header') .
+            view('usuario/carrito') .
+            view('footer');
+    }
 
     public function editar()
     {

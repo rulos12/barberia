@@ -107,10 +107,9 @@
 
 }
 
-.menu {
+/**
+ * .menu {
     display: flex;
-    gap: 12.1rem;
-
 }
 
 .menu li {
@@ -124,6 +123,30 @@
     font-weight: 400;
     position: absolute;
 }
+     */
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 10rem;
+
+}
+
+.menu li a {
+    text-decoration: none;
+    font-weight: 400;
+    color: #000000;
+    font-family: 'Marcellus SC', serif;
+    font-size: 1.1rem;
+    /* Cambia esto según tus preferencias de color */
+}
+
+.menu li a:hover {
+    color: #6d6969;
+    /* Cambia esto al color de tu elección para el hover */
+}
+
+
 
 
 .Inicio {
@@ -135,14 +158,9 @@
 
 
 
-
 .Rectangle2 {
-    width: 1349px;
-    height: 586px;
-    left: 0;
-    top: 270px;
-    position: absolute;
-    background: #2F4F4F;
+    background-color: var(--green-color);
+    color: #000000;
 }
 
 .Brdch211 {
@@ -152,19 +170,7 @@
     border-radius: 15px;
 }
 
-.text {
 
-    left: 115px;
-    top: 320px;
-    position: absolute;
-    opacity: 0.99;
-    color: rgba(255, 255, 255, 0.60);
-    font-size: 27px;
-    font-family: Marcellus;
-    font-weight: 400;
-    word-wrap: break-word;
-    text-align: justify;
-}
 
 .Tienda {
     width: 145px;
@@ -200,47 +206,38 @@
     position: absolute;
 }
 
-.Image1 {
-    left: 1200px;
-    position: absolute;
-}
+
 
 .Image1 a {
     text-decoration: none;
     font-size: 1.1rem;
     color: black;
     font-weight: 400;
-    position: relative;
-    margin: .3em;
+    margin: 10px;
 }
 
-.Search {
-    left: 110px;
-    position: absolute;
-}
 
 .Search a {
     text-decoration: none;
     font-size: 1.1rem;
     color: black;
     font-weight: 400;
-    position: relative;
-
 }
 
-
+/**pagina inicio */
 .TheKingOfBarbershop {
-    left: 115px;
-    top: 130px;
-    position: absolute;
     opacity: 0.90;
     color: rgba(255, 255, 255, 0.60);
     font-size: 66px;
-    font-family: Marcellus SC;
-    font-weight: 200;
-    word-wrap: break-word;
+    font-family: 'Marcellus SC', serif;
 }
 
+.text {
+    font-family: 'Marcellus', serif;
+    opacity: 0.99;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 18px;
+}
 
 /**Estilos del Formulario */
 
@@ -281,7 +278,7 @@
 }
 
 .btn-custom:hover {
-    background-color: #c9a73c;
+    background-color: #ac9035;
     /* Color al pasar el cursor */
 }
 
@@ -354,6 +351,25 @@
 .input-group {
     max-width: 120px;
 }
+
 .form-control {
     text-align: center;
+}
+
+/**Boton seguir comprando */
+
+.botonShop {
+
+    background-color: #d6b341;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Marcellus';
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+    font-weight: 400;
 }
