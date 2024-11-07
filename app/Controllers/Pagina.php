@@ -1,5 +1,7 @@
 <?php
+
 /**Metodos de Usuario */
+
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
@@ -89,14 +91,56 @@ class Pagina extends BaseController
             view('usuario/addCuenta') .
             view('footer');
     }
-
+/**funciones de citas */
     public function addCita()
     {
+        $empleadoM = model('EmpleadoM');
+        $data['empleados'] = $empleadoM->getEmpleado();
+
 
         return view('usuario/headUsuario') .
             view('usuario/header') .
-            view('usuario/addCita') .
+            view('usuario/addCita', $data) .
             view('footer');
+    }
+    public function citaHistorial()
+    {
+        $session = session();
+
+        $idCliente = $session->get('id_cliente');
+        $citaM = model('CitaM');
+        $data['citasAntes'] = $citaM->getCitaBefore($idCliente);
+        $data['citasDespues'] = $citaM->getCitaAfter($idCliente);
+
+        return view('usuario/headUsuario') .
+            view('usuario/header') .
+            view('usuario/historialCita', $data) .
+            view('footer');
+    }
+    public function addCitaUsuario()
+    {
+
+        $session = session();
+
+        if (!$session->has('id_cliente')) {
+            return redirect()->to(base_url('/cita/registrar'));
+            
+        }
+        $idCliente = $session->get('id_cliente');
+
+        $citaM = model('CitaM');
+
+        $data = [
+            "id_cliente" => $idCliente,
+            "id_empleado" => $_POST['id_empleado'],
+            "fecha_cita" => $_POST['fecha_cita'],
+            "hora_cita" => $_POST['hora_cita'],
+            "servicio" => $_POST['servicio'],
+            "estado" => 'programada',
+        ];
+
+        $citaM->insert($data);
+        return redirect()->to(base_url('/pagina/inicio'));
     }
     public function carritoEmpty()
     {
@@ -124,7 +168,7 @@ class Pagina extends BaseController
             view('usuario/editCuenta', $data) .
             view('footer');
     }
-
+/**metodos del editar cliente */
     public function update()
     {
         $clienteM = model('ClienteM');
@@ -144,4 +188,6 @@ class Pagina extends BaseController
 
         return redirect()->to(base_url('/cliente'));
     }
+
+    public function agendarCitaU() {}
 }

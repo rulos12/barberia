@@ -61,4 +61,36 @@ class CitaM extends Model
         
 
     }
+    public function getServicioCita($id_cita){
+        $db = db_connect();
+
+        $sql= "select servicio
+                from cita where id_cita = ". $id_cita;
+        $query= $db->query($sql);
+
+       
+        return $query->getResult();
+        
+
+    }
+    public function getCitaBefore($idCliente){
+        $db = db_connect();
+
+        $sql= "select *
+                from cita where id_cliente =".$idCliente." and estado = 'completada' ";
+        $query= $db->query($sql);
+
+       
+        return $query->getResult();
+    }
+    public function getCitaAfter($idCliente){
+        $db = db_connect();
+
+        $sql= "select *
+                from cita where id_cliente =".$idCliente." and estado = 'programada' ";
+        $query= $db->query($sql);
+
+       
+        return $query->getResult();
+    }
 }

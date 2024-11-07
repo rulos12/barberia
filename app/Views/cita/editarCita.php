@@ -40,12 +40,16 @@
                         class="form-control" id="hora_cita" placeholder="hora_cita">
                     <input type="hidden" name="id_cita" value="<?= $citas[0]->id_cita; ?>">
                 </div>
-                <div class="mb-3">
-                    <label for="servicio" class="form-label">Servicio</label>
-                    <input name="servicio" type="text" required
-                        placeholder="@ejemplo.com" value="<?= $citas[0]->servicio; ?>"
-                        class="form-control" id="servicio" placeholder="servicio">
-                    <input type="hidden" name="id_cita" value="<?= $citas[0]->id_cita; ?>">
+                <label for="servicio">Servicio</label>
+                <div class="input-group mb-3">
+                    <select class="form-select" name="servicio" id="servicio" required>
+                        <option selected>Elegir...</option>
+                        <option value="Corte de cabello" <?= $servicio == 'Corte de cabello' ? 'selected' : '' ?>>Corte de cabello</option>
+                        <option value="Corte y Barba" <?= $servicio == 'Corte y Barba' ? 'selected' : '' ?>>Corte y Barba</option>
+                        <option value="Coloración" <?= $servicio == 'Coloración' ? 'selected' : '' ?>>Coloración</option>
+                        <option value="Corte y afeitado" <?= $servicio == 'Corte y afeitado' ? 'selected' : '' ?>>Corte y afeitado</option>
+                        <option value="Afeitado" <?= $servicio == 'Afeitado' ? 'selected' : '' ?>>Afeitado</option>
+                    </select>
                 </div>
                 <label for="estado">Estado</label>
                 <div class="input-group mb-3">

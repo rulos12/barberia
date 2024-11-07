@@ -118,8 +118,6 @@ $routes->get('/cuenta/editar', 'Pagina::editar');
 $routes->post('/cuenta/update', 'Pagina::update');
 
 
-$routes->get('/cita/registrar', 'Pagina::addCita');
-
 
 /**Productos Usuario */
 
@@ -131,4 +129,14 @@ $routes->get('/producto/detalle/(:num)', 'Producto::detalleProducto/$1');
 
 $routes->get('/cart/empty', 'Pagina::carritoEmpty');
 $routes->get('/cart', 'Pagina::cart');
+
+
+/**Rutas para agendar cita */
+$routes->get('/cita/registrar', 'Pagina::addCita');
+$routes->post('/cita/registrar', 'Pagina::addCitaUsuario');
+$routes->get('/cita/historial', 'Pagina::citaHistorial');
+
+
+
+
 

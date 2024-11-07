@@ -34,7 +34,14 @@
                 <input type="time" class="form-control" name="hora_cita">
 
                 <label for="servicio">Servicio</label>
-                <input type="text" class="form-control" name="servicio">
+                <select class="form-select" name="servicio" id="servicio">
+                    <option selected>Elegir...</option>
+                    <option value="Corte de cabello">Corte de cabello</option>
+                    <option value="Corte y Barba">Corte y Barba</option>
+                    <option value="Coloración">Coloración</option>
+                    <option value="Corte y afeitado">Corte y afeitado</option>
+                    <option value="Afeitado">Afeitado</option>
+                </select>
 
                 <label for="estado">Estado</label>
                 <select class="form-select" name="estado" id="estado">

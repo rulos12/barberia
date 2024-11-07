@@ -56,8 +56,15 @@
     <nav class="border-bottom lh-1 py-4">
         <div class="text-center">
             <ul class="menu list-unstyled d-flex justify-content-center ">
-                <li ><a href="<?= base_url('cita/registrar'); ?>">Haz una cita</a></li>
-                <li ><a href="<?= base_url('producto/lista'); ?>">Tienda</a></li>
+                <li><a href="<?= base_url('cita/registrar'); ?>">Haz una cita</a></li>
+                <li>
+                    <?php
+                    $session = session();
+                    if ($session->get('logged_in') != null): ?>
+                        <a href="<?= base_url('cita/historial'); ?>">Historial</a>
+                    <?php endif ?>
+                </li>
+                <li><a href="<?= base_url('producto/lista'); ?>">Tienda</a></li>
             </ul>
         </div>
     </nav>

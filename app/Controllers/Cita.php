@@ -81,6 +81,9 @@ class Cita extends BaseController
         a la variable data para que se mande al formulario 
         */
         $data['estados'] = $estadoResultado[0]->estado; 
+
+        $servicioResultado = $citaM->getServicioCita($idCita);
+        $data['servicio'] = $servicioResultado[0]->servicio; 
         
         $data['citas']  = $citaM->where('id_cita', $idCita)->getCitasCon();
 

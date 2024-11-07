@@ -38,4 +38,18 @@ class EmpleadoM extends Model
     protected $afterFind      = [];
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
+
+
+    public function getEmpleado(){
+        $db = db_connect();
+
+        $sql= "select * 
+                from empleado where puesto = 'Barbero' || puesto = 'Estilista'" ;
+        $query= $db->query($sql);
+
+       
+        return $query->getResult();
+        
+
+    }
 }
