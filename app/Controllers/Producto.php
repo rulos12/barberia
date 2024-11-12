@@ -38,8 +38,7 @@ class Producto extends BaseController
     }
 
     public function insert()
-    { //post
-        echo "aqui insertamos";
+    { 
         $data = [
             "nombre" => $_POST['nombre'],
             "precio" => $_POST['precio'],
@@ -107,32 +106,5 @@ class Producto extends BaseController
 
         return redirect()->to(base_url('/producto'));
     }
-    public function listaProducto()
-    {
-        $productoM = model('ProductoM');
-        $marcaM = model('MarcaM');
-        $data['marcas'] = $marcaM->findAll();
-
-        $data['productos']  = $productoM->getProductosConMarca();
-
-        return view('usuario/headUsuario') .
-            view('usuario/header') .
-            view('usuario/listaProducto', $data) .
-            view('footer');
-    }
-    public function detalleProducto($idProducto)
-    {
-        $productoM = model('ProductoM');
-        $marcaM = model('MarcaM');
-        $data['marcas'] = $marcaM->findAll();
-        
-        $productoM = model('ProductoM');
-        $data['producto']  = $productoM->where('id_producto', $idProducto)->getProductosConMarca();
-        $data['productos']  = $productoM->getProductosConMarca();
-
-        return view('usuario/headUsuario') .
-            view('usuario/header') .
-            view('usuario/detalleProducto', $data) .
-            view('footer');
-    }
+    
 }

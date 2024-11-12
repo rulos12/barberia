@@ -38,7 +38,6 @@ class Pedido extends BaseController
             "fecha_pedido" => $_POST['fecha_pedido'],
             "estado" => $_POST['estado'],
             "total" => $_POST['total'],
-            "fecha_entrega" => $_POST['fecha_entrega'],
         ];
 
         $pedidoM = model('PedidoM');
@@ -94,7 +93,6 @@ class Pedido extends BaseController
             "fecha_pedido" => $_POST['fecha_pedido'],
             "estado" => $_POST['estado'],
             "total" => $_POST['total'],
-            "fecha_entrega" => $_POST['fecha_entrega'],
         ];
 
         $pedidoM->set($data)->where('id_pedido', $idPedido)->update();

@@ -249,6 +249,23 @@
     margin-bottom: 40px;
 }
 
+.productos {
+    font-family: 'Marcellus', serif;
+    opacity: 0.99;
+    color: rgba(9.56, 9.56, 9.56, 0.80);
+    font-size: 18px;
+}
+.producto {
+    font-family: 'Marcellus', serif;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 43px;
+}
+.precio{
+    font-family: 'Marcellus', serif;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 25px;
+}
+
 .mainSesion {
     padding-top: 25px;
 }
@@ -381,4 +398,9 @@
     font-size: 1.3rem;
     color: black;
     font-weight: 400;
+}
+
+
+.buttonMargen {
+    width: 35rem;
 }

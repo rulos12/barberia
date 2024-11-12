@@ -36,13 +36,7 @@
                         class="form-control" id="total" placeholder="total">
                     <input type="hidden" name="id_pedido" value="<?= $pedidos[0]->id_pedido; ?>">
                 </div>
-                <div class="mb-3">
-                    <label for="fecha_entrega" class="form-label">Fecha de entrega</label>
-                    <input name="fecha_entrega" type="date" required
-                         value="<?= $pedidos[0]->fecha_entrega; ?>"
-                        class="form-control" id="fecha_entrega" placeholder="fecha_entrega">
-                    <input type="hidden" name="id_pedido" value="<?= $pedidos[0]->id_pedido; ?>">
-                </div>
+                
                 
                 <input type="submit" class="btn btn-success" name="Modificar" value="Modificar">
             </form>

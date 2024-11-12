@@ -26,17 +26,13 @@
                 <select class="form-select" name="estado" id="estado">
                     <option selected>Elegir...</option>
                     <option value="pendiente">Pendiente</option>
-                    <option value="completa">Procesado</option>
-                    <option value="completa">Enviado</option>
                     <option value="completa">Completa</option>
                 </select>
 
                 <label for="total">Total</label>
                 <input type="text" class="form-control" name="total">
 
-                <label for="fecha_entrega">Fecha de entrega</label>
-                <input type="date" class="form-control" name="fecha_entrega">
-
+               
 
                 <input type="submit" class="btn btn-success mt-3 d-block" name="Guardar" value="Guardar">
             </form>

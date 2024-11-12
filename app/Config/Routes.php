@@ -121,20 +121,24 @@ $routes->post('/cuenta/update', 'Pagina::update');
 
 /**Productos Usuario */
 
-$routes->get('/producto/lista', 'Producto::listaProducto');
-$routes->get('/producto/detalle/(:num)', 'Producto::detalleProducto/$1');
-
+$routes->get('/producto/lista', 'Pagina::listaProducto');
+$routes->get('/producto/detalle/(:num)', 'Pagina::detalleProducto/$1');
+$routes->post('/producto/insertCart', 'Pagina::insertCart');
 
 /**Carrito usuario */
 
 $routes->get('/cart/empty', 'Pagina::carritoEmpty');
 $routes->get('/cart', 'Pagina::cart');
+$routes->post('/cart/confirmar', 'Pagina::confirmarCompra');
+
+
 
 
 /**Rutas para agendar cita */
 $routes->get('/cita/registrar', 'Pagina::addCita');
 $routes->post('/cita/registrar', 'Pagina::addCitaUsuario');
-$routes->get('/cita/historial', 'Pagina::citaHistorial');
+$routes->get('/cita/historial', 'Pagina::Historial');
+
 
 
 

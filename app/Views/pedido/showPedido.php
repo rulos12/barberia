@@ -14,7 +14,6 @@
                     <th>Fecha de pedido</th>
                     <th>Estado</th>
                     <th>Total</th>
-                    <th>Fecha entrega</th>
                     <th>Acciones</th>
                 </thead>
                 <tbody>
@@ -25,7 +24,6 @@
                             <td><?= $key->fecha_pedido?></td>
                             <td><?= $key->estado?></td>
                             <td><?= $key->total?></td>
-                            <td><?= $key->fecha_entrega?></td>
                             <td>
                                 <a href="<?= base_url('pedido/deletePedido/' . $key->id_pedido); ?> " class="btn btn-danger">Borrar</a>
                                 <a href="<?= base_url('pedido/editarPedido/' . $key->id_pedido); ?> " class="btn btn-warning">Modificar</a>

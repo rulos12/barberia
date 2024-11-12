@@ -39,14 +39,14 @@
                     <!--validacion de sesión con carrito -->
                     <?php
                     $session = session();
-                    if ($session->get('logged_in') != null): ?>
+                    if ($session->get('carrito') != null): ?>
 
                         <a href="<?= base_url('cart/'); ?>"><i class="bi bi-cart fs-3"></i> </a>
 
                     <?php endif ?>
                     <?php
                     $session = session();
-                    if ($session->get('logged_in') == null): ?>
+                    if ($session->get('carrito') == null): ?>
                         <a href="<?= base_url('cart/empty'); ?>"><i class="bi bi-cart fs-3"></i> </a>
                     <?php endif ?>
                 </div>
@@ -54,7 +54,7 @@
         </div>
     </header>
     <nav class="border-bottom lh-1 py-4">
-        <div class="text-center">
+        <div class="text-center me-5">
             <ul class="menu list-unstyled d-flex justify-content-center ">
                 <li><a href="<?= base_url('cita/registrar'); ?>">Haz una cita</a></li>
                 <li>

@@ -4,8 +4,7 @@
             <h1 class="InicioDeSesiN">Productos</h1>
         </div>
         <?php foreach ($productos as $key) : ?>
-            <div class="col-4 producto">
-
+            <div class="col-4 productos">
                 <a href="<?= base_url('producto/detalle/') . $key->id_producto ?>">
                     <div class="imgSecundaria"> </div>
                 </a>

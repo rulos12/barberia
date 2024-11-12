@@ -4,25 +4,29 @@
          <div class="col-7 p-5 ">
              <div class="imgPrincipal"></div>
          </div>
-         <div class="col-5 p-5">
-             <h2><?= $producto[0]->nombre ?></h2>
-             <h3 class="text-right"> $ <?= $producto[0]->precio; ?></h3>
-             <form action="<?= base_url('pagina/insertCarrito'); ?>" method="POST">
+         <div class="col-5 p-5 ">
+             <h2 class="producto"><?= $producto[0]->nombre ?></h2>
+             <h3 class="my-5 precio"> $ <?= $producto[0]->precio; ?></h3>
+             <form action="<?= base_url('producto/insertCart'); ?>" method="POST">
                  <div class="form">
                      <label for="">Cantidad</label>
-                     <input type="number" Min="1" Max="<?= $producto[0]->stock; ?>" name="cantidad" class="form-control">
+                     <input type="number" Min="1" Max="<?= $producto[0]->stock; ?>" name="stock" class="form-control" value="1">
                  </div>
                  <br>
-                 <input type="hidden" value="<?= $producto[0]->id_producto; ?>" name="idProducto">
+                 <input type="hidden" value="<?= $producto[0]->id_producto; ?>" name="id_producto">
                  <input type="hidden" value="<?= $producto[0]->nombre; ?>" name="nombre">
                  <input type="hidden" value="<?= $producto[0]->precio; ?>" name="costo">
 
-                 <div class="input-group">
+                <!-- <div class="input-group">
                      <button class="btn btn-outline-secondary" type="button" onclick="decrement()">-</button>
                      <input type="text" id="counter" class="form-control" value="1" readonly>
                      <button class="btn btn-outline-secondary" type="button" onclick="increment()">+</button>
+                 </div>-->
+
+                 <div class="text-center">
+                     <button class="btn-custom">Agregar al carrito</button>
                  </div>
-                 <input type="submit" class="btn btn-large btn-success" value="Agregar al carrito">
+
              </form>
          </div>
      </div>

@@ -5,6 +5,7 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
+use App\Models\DetallePedidoM;
 use CodeIgniter\HTTP\ResponseInterface;
 
 class Pagina extends BaseController
@@ -91,7 +92,7 @@ class Pagina extends BaseController
             view('usuario/addCuenta') .
             view('footer');
     }
-/**funciones de citas */
+    /**funciones de citas */
     public function addCita()
     {
         $empleadoM = model('EmpleadoM');
@@ -103,7 +104,7 @@ class Pagina extends BaseController
             view('usuario/addCita', $data) .
             view('footer');
     }
-    public function citaHistorial()
+    public function Historial()
     {
         $session = session();
 
@@ -111,6 +112,10 @@ class Pagina extends BaseController
         $citaM = model('CitaM');
         $data['citasAntes'] = $citaM->getCitaBefore($idCliente);
         $data['citasDespues'] = $citaM->getCitaAfter($idCliente);
+
+        $detallePedido = model('DetallePedidoM');
+        $data['detalleB'] = $detallePedido->getBefore($idCliente);
+        $data['detalleA'] = $detallePedido->getAfter($idCliente);
 
         return view('usuario/headUsuario') .
             view('usuario/header') .
@@ -124,7 +129,6 @@ class Pagina extends BaseController
 
         if (!$session->has('id_cliente')) {
             return redirect()->to(base_url('/cita/registrar'));
-            
         }
         $idCliente = $session->get('id_cliente');
 
@@ -168,7 +172,7 @@ class Pagina extends BaseController
             view('usuario/editCuenta', $data) .
             view('footer');
     }
-/**metodos del editar cliente */
+    /**metodos del editar cliente */
     public function update()
     {
         $clienteM = model('ClienteM');
@@ -189,5 +193,102 @@ class Pagina extends BaseController
         return redirect()->to(base_url('/cliente'));
     }
 
-    public function agendarCitaU() {}
+    /**funciones para producto */
+    public function listaProducto()
+    {
+        $productoM = model('ProductoM');
+        $marcaM = model('MarcaM');
+        $data['marcas'] = $marcaM->findAll();
+
+        $data['productos']  = $productoM->getProductosConMarca();
+
+        return view('usuario/headUsuario') .
+            view('usuario/header') .
+            view('usuario/listaProducto', $data) .
+            view('footer');
+    }
+    public function detalleProducto($idProducto)
+    {
+        $productoM = model('ProductoM');
+        $marcaM = model('MarcaM');
+        $data['marcas'] = $marcaM->findAll();
+
+        $productoM = model('ProductoM');
+        $data['producto']  = $productoM->where('id_producto', $idProducto)->getProductosConMarca();
+        $data['productos']  = $productoM->getProductosConMarca();
+
+        return view('usuario/headUsuario') .
+            view('usuario/header') .
+            view('usuario/detalleProducto', $data) .
+            view('footer');
+    }
+    /**Funciones para carrito */
+    public function insertCart()
+    {
+        $session = session();
+        $idProducto = $_POST['id_producto'];
+        $name = $_POST['nombre'];
+        $costo = $_POST['costo'];
+        $cantidad = $_POST['stock'];
+        if ($cantidad != null) {
+            $subtotal = $cantidad * $costo;
+        }
+        $carrito = $session->get('carrito') ?? [];
+        $item = [
+            "id_producto" => $idProducto,
+            "nombre" => $name,
+            "cantidad" => $cantidad,
+            "costo" => $costo,
+            "subtotal" => $subtotal,
+            "estado" => 'pendiente'
+        ];
+
+        if (isset($carrito[$idProducto])) {
+            $carrito[$idProducto]['cantidad'] += $cantidad;
+            $carrito[$idProducto]['subtotal'] = $carrito[$idProducto]['cantidad'] * $costo;
+        } else {
+            $carrito[$idProducto] = $item;
+        }
+        $session->set('carrito', $carrito);
+        return redirect()->to(base_url('/cart'));
+    }
+    public function confirmarCompra()
+    {
+
+        $session = session();
+
+        if (!$session->has('id_cliente')) {
+            return redirect()->to(base_url('/cart'));
+        }
+
+        $total = $_POST['total'];
+        $estado = $_POST['estado'];
+        $pedidoM = model('PedidoM');
+        $detallePedido = model('DetallePedidoM');
+        $idCliente = $session->get('id_cliente');
+
+
+        $dataPedido = [
+            'id_cliente' => $idCliente,
+            'fecha_pedido' => date('Y-m-d'),
+            'estado' => $estado,
+            'total' => $total
+        ];
+        $pedidoM->insert($dataPedido);
+        $idPedido = $pedidoM->getInsertID();
+
+        foreach ($session->get('carrito') as $item) {
+            $dataDetallePedido = [
+                'id_pedido' => $idPedido,
+                'id_producto' => $item['id_producto'],
+                'cantidad' => $item['cantidad'],
+                'precio_unitario' => $item['costo'],
+            ];
+
+            $detallePedido->insert($dataDetallePedido);
+        }
+        echo "insertado";
+        $session->remove('carrito');
+        return redirect()->to(base_url('cita/historial'));
+    }
 }

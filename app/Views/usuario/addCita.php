@@ -14,8 +14,6 @@
 
             <h1 class="InicioDeSesiN">Agendar cita</h1>
             <form action="<?= base_url('cita/registrar'); ?>" method="POST">
-
-
                 <div class="input-container mx-auto" style="max-width: 400px;">
                     <select class="form-select" name="servicio" id="servicio" required>
                         <option selected disabled>Elegir...</option>

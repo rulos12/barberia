@@ -40,6 +40,7 @@
             required
             placeholder="@ejemplo.com" value="<?= set_value('email') ?>" >
         </div>
+        <input type="hidden" name="puesto" id="puesto" value="null">
 
             <input type="submit" class = "btn btn-success nt-3" name="Guardar" value = "Guardar" > 
             </form>
