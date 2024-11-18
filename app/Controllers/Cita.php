@@ -90,7 +90,7 @@ class Cita extends BaseController
         return
             view('head') .
             view('menu') .
-            view('cita/editarCita', $data) .
+            view('cita/showCita', $data) .
             view('footer');
     }
 
@@ -113,4 +113,19 @@ class Cita extends BaseController
 
         return redirect()->to(base_url('/cita'));
     }
+
+    public function listaOrdenada()
+    {
+        $citaM = model('CitaM');
+        $ordenBy = 'estado';
+        $direction = 'DESC';
+
+        $data['citas']  = $citaM->getCitasOrdenas($ordenBy, $direction);
+        return
+            view('head') .
+            view('menu') .
+            view('cita/showCita', $data) .
+            view('footer');
+    }
+
 }

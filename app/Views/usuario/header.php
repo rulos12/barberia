@@ -8,9 +8,25 @@
         <div class="row">
             <div class="col-4 pt-5">
                 <div class="Search">
-                    <a href="#">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <i class="bi bi-search fs-3"></i>
                     </a>
+                </div>
+            </div>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <input type="text" placeholder="Buscar productos" class="form-control input m-1">
+                            <button type="button" class="buttonSearch">
+                                <i class="bi bi-search fs-5"></i>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            
+                        </div>
+
+                    </div>
                 </div>
             </div>
             <div class="col-4">

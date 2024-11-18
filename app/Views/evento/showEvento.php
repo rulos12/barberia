@@ -26,8 +26,8 @@
                             <td><?= $key->fecha_evento ?></td>
                             <td><?= $key->nombreEmpleado?></td>
                             <td>
-                                <a href="<?= base_url('evento/delete/' . $key->id_evento); ?> " class="btn btn-danger">Borrar</a>
-                                <a href="<?= base_url('evento/edit/' . $key->id_evento); ?> " class="btn btn-warning">Modificar</a>
+                                <a href="<?= base_url('evento/delete/' . $key->id_evento); ?> " class="btn btn-danger"><i class="bi bi-trash"></i></a>
+                                <a href="<?= base_url('evento/edit/' . $key->id_evento); ?> " class="btn btn-warning"><i class="bi bi-pencil"></i></a>
                             </td>
                         </tr>
                     <?php endforeach ?>

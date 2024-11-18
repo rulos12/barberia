@@ -13,7 +13,7 @@ class CitaM extends Model
     protected $returnType       = 'object';
     protected $useSoftDeletes   = true;
     protected $protectFields    = true;
-    protected $allowedFields    = ['id_cita','id_cliente','id_empleado','fecha_cita','hora_cita','servicio','estado'];
+    protected $allowedFields    = ['id_cita', 'id_cliente', 'id_empleado', 'fecha_cita', 'hora_cita', 'servicio', 'estado'];
 
     // Dates
     protected $useTimestamps = true;
@@ -44,53 +44,57 @@ class CitaM extends Model
         // Consultas para obtener solo el nombre de la marca, proveedor, tipo
 
         return $this->select('cita.*, cliente.nombreCliente, empleado.nombreEmpleado')
-                ->join('cliente', 'cita.id_cliente = cliente.id_cliente' , 'left')
-                ->join('empleado', 'cita.id_empleado = empleado.id_empleado', 'left')
-                ->findAll(); 
-
+            ->join('cliente', 'cita.id_cliente = cliente.id_cliente', 'left')
+            ->join('empleado', 'cita.id_empleado = empleado.id_empleado', 'left')
+            ->findAll();
     }
-    public function getEstadoCita($id_cita){
+    public function getCitasOrdenas($ordenBy = 'id_cita', $direction = 'ASC')
+    {
+ 
+        return $this->select('cita.*, cliente.nombreCliente, empleado.nombreEmpleado')
+            ->join('cliente', 'cita.id_cliente = cliente.id_cliente', 'left')
+            ->join('empleado', 'cita.id_empleado = empleado.id_empleado', 'left')
+            ->orderBy($ordenBy,$direction)
+            ->findAll();
+    }
+    public function getEstadoCita($id_cita)
+    {
         $db = db_connect();
 
-        $sql= "select estado
-                from cita where id_cita = ". $id_cita;
-        $query= $db->query($sql);
+        $sql = "select estado
+                from cita where id_cita = " . $id_cita;
+        $query = $db->query($sql);
 
-       
-        return $query->getResult();
-        
 
-    }
-    public function getServicioCita($id_cita){
-        $db = db_connect();
-
-        $sql= "select servicio
-                from cita where id_cita = ". $id_cita;
-        $query= $db->query($sql);
-
-       
-        return $query->getResult();
-        
-
-    }
-    public function getCitaBefore($idCliente){
-        $db = db_connect();
-
-        $sql= "select *
-                from cita where id_cliente =".$idCliente." and estado = 'completada' ";
-        $query= $db->query($sql);
-
-       
         return $query->getResult();
     }
-    public function getCitaAfter($idCliente){
+    public function getServicioCita($id_cita)
+    {
         $db = db_connect();
 
-        $sql= "select *
-                from cita where id_cliente =".$idCliente." and estado = 'programada' ";
-        $query= $db->query($sql);
+        $sql = "select servicio
+                from cita where id_cita = " . $id_cita;
+        $query = $db->query($sql);
 
-       
+
         return $query->getResult();
+    }
+    public function getCitaBefore($idCliente)
+    {
+        return $this->select('cita.*, cliente.nombreCliente, empleado.nombreEmpleado')
+            ->join('cliente', 'cita.id_cliente = cliente.id_cliente', 'left')
+            ->join('empleado', 'cita.id_empleado = empleado.id_empleado', 'left')
+            ->where('cita.id_cliente', $idCliente)
+            ->where('estado', 'completada')
+            ->findAll();
+    }
+    public function getCitaAfter($idCliente)
+    {
+        return $this->select('cita.*, cliente.nombreCliente, empleado.nombreEmpleado')
+            ->join('cliente', 'cita.id_cliente = cliente.id_cliente', 'left')
+            ->join('empleado', 'cita.id_empleado = empleado.id_empleado', 'left')
+            ->where('cita.id_cliente', $idCliente)
+            ->where('estado', 'programada')
+            ->findAll();
     }
 }

@@ -35,8 +35,8 @@
                             <td><?= $key->nombreTipo; ?></td>
                             <td><?= $key->descripcion; ?></td>
                             <td>
-                                <a href="<?= base_url('tipo/delete/' . $key->id_tipo); ?> " class="btn btn-danger">Borrar</a>
-                                <a href="<?= base_url('tipo/editarTipo/' . $key->id_tipo); ?> " class="btn btn-warning">Modificar</a>
+                                <a href="<?= base_url('tipo/delete/' . $key->id_tipo); ?> " class="btn btn-danger"><i class="bi bi-trash"></i></a>
+                                <a href="<?= base_url('tipo/editarTipo/' . $key->id_tipo); ?> " class="btn btn-warning"><i class="bi bi-pencil"></i></a>
 
                             </td>
                         </tr>

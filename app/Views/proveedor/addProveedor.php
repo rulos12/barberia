@@ -45,8 +45,8 @@
                             <td><?= $key->email;?></td>
                             <td><?= $key->contacto;?></td>
                             <td>
-                                <a href="<?= base_url('proveedor/delete/' . $key->id_proveedor); ?> " class="btn btn-danger">Borrar</a>
-                                <a href="<?= base_url('proveedor/editarProveedor/' . $key->id_proveedor); ?> " class="btn btn-warning">Modificar</a>
+                                <a href="<?= base_url('proveedor/delete/' . $key->id_proveedor); ?> " class="btn btn-danger"><i class="bi bi-trash"></i></a>
+                                <a href="<?= base_url('proveedor/editarProveedor/' . $key->id_proveedor); ?> " class="btn btn-warning"><i class="bi bi-pencil"></i></a>
 
                             </td>
                         </tr>

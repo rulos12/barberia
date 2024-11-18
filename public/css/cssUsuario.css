@@ -255,12 +255,14 @@
     color: rgba(9.56, 9.56, 9.56, 0.80);
     font-size: 18px;
 }
+
 .producto {
     font-family: 'Marcellus', serif;
     color: rgba(0, 0, 0, 0.8);
     font-size: 43px;
 }
-.precio{
+
+.precio {
     font-family: 'Marcellus', serif;
     color: rgba(0, 0, 0, 0.8);
     font-size: 25px;
@@ -279,6 +281,7 @@
     margin-top: 10px;
     margin-bottom: 35px;
 }
+
 .input-container select {
     padding: 10px;
     font-size: 19px;
@@ -400,7 +403,18 @@
     font-weight: 400;
 }
 
-
 .buttonMargen {
-    width: 35rem;
+    width: 100rem;
 }
+
+
+.input{
+    text-align: left;
+}
+
+.buttonSearch{
+    border: none;
+    background-color: #ffffff;
+
+}
+

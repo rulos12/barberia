@@ -30,8 +30,8 @@
                                 <td><?= $key->puesto ?></td>
                                 <td><?= $key->fecha_contratacion ?></td>
                                 <td>
-                                    <a href="<?= base_url('empleado/delete/' . $key->id_empleado); ?> " class="btn btn-danger">Borrar</a>
-                                    <a href="<?= base_url('empleado/edit/' . $key->id_empleado); ?> " class="btn btn-warning">Modificar</a>
+                                    <a href="<?= base_url('empleado/delete/' . $key->id_empleado); ?> " class="btn btn-danger"><i class="bi bi-trash"></i></a>
+                                    <a href="<?= base_url('empleado/edit/' . $key->id_empleado); ?> " class="btn btn-warning"><i class="bi bi-pencil"></i></a>
 
                                 </td>
                             </tr>

@@ -27,12 +27,11 @@
                             <tr>
                                 <td><?= $item['nombre']; ?><br><?= $item['costo']; ?></td>
                                 <td>
-                                    <div class="input-group">
-                                        <button class="btn btn-outline-secondary" type="button" onclick="decrement()">-</button>
-                                        <input type="text" id="counter" class="form-control" value="<?= $item['cantidad']; ?>" readonly>
-                                        <button class="btn btn-outline-secondary" type="button" onclick="increment()">+</button>
-                                    </div>
-
+                                   
+                                        <button class="btn btn-outline-secondary" type="button" onclick="decrement()" ><i class="bi bi-dash"></i></button>
+                                        <input type="text" id="counter" class=" " style="width: 7%; text-align: center; border: 1rem; border-radius: .5rem; outline: none;" value="<?= $item['cantidad']; ?>" readonly>
+                                        <button class="btn btn-outline-secondary" type="button" onclick="increment()"><i class="bi bi-plus-lg"></i></button>
+                                    
                                 </td>
                                 <td><?= $item['subtotal']; ?></td>
                             </tr>
@@ -50,7 +49,7 @@
 
                 <form action="<?= base_url('cart/confirmar'); ?>" method="POST">
                     <input type="hidden" name="total" value="<?= $total ?>">
-                    <input type="hidden" name="estado" value = "pendiente"> 
+                    <input type="hidden" name="estado" value="pendiente">
                     <button class="btn-custom">Confirmar pedido </button>
                 </form>
             </div>

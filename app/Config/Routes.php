@@ -71,6 +71,8 @@ $routes->get('/cita', 'Cita::index');
 $routes->get('/cita/add', 'Cita::add');
 $routes->post('/cita/insert', 'Cita::insert');
 $routes->get('/cita/deleteCita/(:num)', 'Cita::deleteCita/$1');
+$routes->get('/cita/deleteCitaC/(:num)', 'Pagina::deleteCita/$1');
+
 
 
 $routes->get('/cita/editarCita/(:num)', 'Cita::editarCita/$1');
@@ -138,6 +140,11 @@ $routes->post('/cart/confirmar', 'Pagina::confirmarCompra');
 $routes->get('/cita/registrar', 'Pagina::addCita');
 $routes->post('/cita/registrar', 'Pagina::addCitaUsuario');
 $routes->get('/cita/historial', 'Pagina::Historial');
+$routes->get('/cita/deleteCita/(:num)', 'Pagina::deleteCita/$1');
+
+
+$routes->get('/cita/citaOrdenada', 'Cita::listaOrdenada');
+
 
 
 

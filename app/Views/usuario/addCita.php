@@ -16,7 +16,7 @@
             <form action="<?= base_url('cita/registrar'); ?>" method="POST">
                 <div class="input-container mx-auto" style="max-width: 400px;">
                     <select class="form-select" name="servicio" id="servicio" required>
-                        <option selected disabled>Elegir...</option>
+                        <option selected disabled>Elige el servicio que deseas</option>
                         <option value="Corte de cabello">Corte de cabello</option>
                         <option value="Corte y Barba">Corte y Barba</option>
                         <option value="Coloración">Coloración</option>
@@ -25,13 +25,13 @@
                     </select>
 
                     <select name="id_empleado" class="form-select">
-                        <option selected>Elegir...</option>
+                        <option selected>Selecciona a tu barbero o estilista</option>
                         <?php foreach ($empleados as $key) : ?>
                             <option value="<?= $key->id_empleado ?>"><?= $key->nombreEmpleado ?>: <?= $key->puesto ?></option>
                         <?php endforeach ?>
                     </select>
 
-                    <input type="date" name="fecha_cita" placeholder="Dia" class="form-control">
+                    <input type="date" name="fecha_cita" placeholder="Dia" class="form-control" >
                     <input type="time" name="hora_cita" placeholder="Hora" class="form-control">
 
                     <button class="btn-custom mt-3">Guardar</button>

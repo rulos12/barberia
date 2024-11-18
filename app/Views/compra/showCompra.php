@@ -28,9 +28,9 @@
                                 <td><?= $key->fecha_recepcion ?></td>
                                 <td>
 
-                                    <a href="<?= base_url('compra/verDetalle/' . $key->id_compra); ?>" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-secondary">Ver detalle </a>
-                                    <a href="<?= base_url('compra/deleteCompra/' . $key->id_compra); ?> " class="btn btn-danger">Borrar</a>
-                                    <a href="<?= base_url('compra/editarCompra/' . $key->id_compra); ?> " class="btn btn-warning">Modificar</a>
+                                    <a href="<?= base_url('compra/verDetalle/' . $key->id_compra); ?>" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-secondary"><i class="bi bi-binoculars"></i></a>
+                                    <a href="<?= base_url('compra/deleteCompra/' . $key->id_compra); ?> " class="btn btn-danger"><i class="bi bi-trash"></i></a>
+                                    <a href="<?= base_url('compra/editarCompra/' . $key->id_compra); ?> " class="btn btn-warning"><i class="bi bi-pencil"></i></a>
                                 </td>
                             </tr>
                         <?php endforeach ?>

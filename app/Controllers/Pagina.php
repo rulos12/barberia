@@ -5,6 +5,7 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
+use App\Models\CitaM;
 use App\Models\DetallePedidoM;
 use CodeIgniter\HTTP\ResponseInterface;
 
@@ -104,6 +105,7 @@ class Pagina extends BaseController
             view('usuario/addCita', $data) .
             view('footer');
     }
+
     public function Historial()
     {
         $session = session();
@@ -122,9 +124,9 @@ class Pagina extends BaseController
             view('usuario/historialCita', $data) .
             view('footer');
     }
+
     public function addCitaUsuario()
     {
-
         $session = session();
 
         if (!$session->has('id_cliente')) {
@@ -142,10 +144,21 @@ class Pagina extends BaseController
             "servicio" => $_POST['servicio'],
             "estado" => 'programada',
         ];
-
         $citaM->insert($data);
-        return redirect()->to(base_url('/pagina/inicio'));
+        return redirect()->to(base_url('/cita/historial'));
     }
+    public function deleteCita($idCita)
+    {
+
+        $citaM = model('CitaM');
+
+        $data = [
+            "estado" => 'cancelada',
+        ];
+        $citaM->set($data)->where('id_cita', $idCita)->update();
+        return redirect()->to(base_url('cita/historial'));
+    }
+    /**funciones para ver vistas de carrito */
     public function carritoEmpty()
     {
         return view('usuario/headUsuario') .
