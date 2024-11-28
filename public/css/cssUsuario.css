@@ -5,36 +5,6 @@
     --primary-color: #2C2C2C;
     --green-color: #2F4F4F;
 }
-
-.container-nav-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-}
-
-
-.container {
-    max-width: 120rem;
-    margin: 0 auto;
-}
-
-
-.container-hero {
-    background-color: var(--background-color);
-}
-
-
-.hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem 0;
-}
-
-
-
-
 .anuncion-bar {
     background-color: var(--primary-color);
     color: #ffffff;
@@ -55,27 +25,8 @@
 }
 
 
-.container-logo {
-    display: flex;
-    align-items: center;
-    gap: .5rem;
-}
 
 
-
-.logo-header {
-    display: flex;
-    gap: 1rem;
-    cursor: pointer;
-}
-
-.container-nav-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
-    padding: 1rem;
-}
 
 .container-logo {
     display: flex;
@@ -84,46 +35,6 @@
     flex-grow: 1;
 }
 
-
-.search-logo {
-    margin-right: 1.5rem;
-    left: 162px;
-}
-
-.navbar {
-    display: flex;
-    align-items: center;
-    padding: 1rem 0;
-}
-
-.menu-container {
-    display: flex;
-    justify-content: center;
-    /* Centrar el menú */
-    flex-grow: 1;
-    /* Permite que este contenedor crezca y ocupe espacio */
-    left: 400px;
-    position: absolute;
-
-}
-
-/**
- * .menu {
-    display: flex;
-}
-
-.menu li {
-    list-style: none;
-}
-
-.menu a {
-    text-decoration: none;
-    font-size: 1.1rem;
-    color: black;
-    font-weight: 400;
-    position: absolute;
-}
-     */
 .menu {
     list-style-type: none;
     padding: 0;
@@ -138,37 +49,18 @@
     color: #000000;
     font-family: 'Marcellus SC', serif;
     font-size: 1.1rem;
-    /* Cambia esto según tus preferencias de color */
 }
 
 .menu li a:hover {
     color: #6d6969;
-    /* Cambia esto al color de tu elección para el hover */
 }
-
-
-
-
-.Inicio {
-    width: 1920px;
-    height: 1024px;
-    position: relative;
-    background: white;
-}
-
-
 
 .Rectangle2 {
     background-color: var(--green-color);
     color: #000000;
 }
 
-.Brdch211 {
-    left: 840px;
-    top: 200px;
-    position: absolute;
-    border-radius: 15px;
-}
+
 
 
 
@@ -254,12 +146,14 @@
     opacity: 0.99;
     color: rgba(9.56, 9.56, 9.56, 0.80);
     font-size: 18px;
+    
 }
 
 .producto {
     font-family: 'Marcellus', serif;
     color: rgba(0, 0, 0, 0.8);
     font-size: 43px;
+    margin-bottom: 50px;
 }
 
 .precio {
@@ -330,23 +224,22 @@
 
 /**imagen de prueba */
 .imgPrincipal {
-    width: 600px;
-    height: 300px;
-    background-color: darkgrey;
-    display: block;
+    width: auto;
+    height: 400px;
 }
 
 .imgSecundaria {
-    width: 90%;
-    height: 200px;
-    background-color: darkgreen;
-    display: block;
+    width: auto;
+    height: 150px;
     margin-bottom: 20px;
 }
+.imgCart {
+    width: auto;
+    height: 95px;
 
-.producto {
-    margin-bottom: 60px;
 }
+
+
 
 
 /**estilos de editar perfil */

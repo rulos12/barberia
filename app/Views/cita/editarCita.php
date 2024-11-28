@@ -1,7 +1,9 @@
-<div class="container">
+<div class="container mt-5">
     <div class="row">
         <div class="col">
-            <h2>Actualizar Cita</h2>
+            <div class="my-4">
+                <h2>Actualizar Cita</h2>
+            </div>
             <form action="<?= base_url('cita/update/'); ?>" method="POST">
                 <label for="id_cliente" class="form-label">Cliente</label>
                 <div class="input-group mb-3">
@@ -61,8 +63,6 @@
                     </select>
                 </div>
                 <input type="submit" class="btn btn-success" name="Modificar" value="Modificar">
-
-
             </form>
         </div>
     </div>

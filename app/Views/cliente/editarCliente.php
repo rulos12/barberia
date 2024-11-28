@@ -1,7 +1,9 @@
-<div class="container"> <!--Actualizar usuario de admin -->
+<div class="container mt-5"> <!--Actualizar usuario de admin -->
     <div class="row">
         <div class="col">
-            <h2>Actualizar Cliente</h2>
+            <div class="my-3">
+                <h2>Actualizar Cliente</h2>
+            </div>
             <form action="<?= base_url('cliente/update/'); ?>" method="POST">
                 <input type="hidden" name="id_cliente" value="<?= $cliente[0]->id_cliente; ?>">
                 <div class="mb-3">

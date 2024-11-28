@@ -5,8 +5,10 @@
         </div>
         <?php foreach ($productos as $key) : ?>
             <div class="col-4 productos">
-                <a href="<?= base_url('producto/detalle/') . $key->id_producto ?>">
-                    <div class="imgSecundaria"> </div>
+                <a href="<?= base_url('producto/detalle/') . $key->id_producto ?>" >
+                    <div class="text-center">
+                        <img src="<?= site_url('upload/getFile/' . esc($key->id_producto)) ?>" class="imgSecundaria" alt="Producto">
+                    </div>
                 </a>
                 <p><?= $key->nombre ?> <br><?= $key->nombreMarca ?> <br> $ <?= $key->precio ?> </p>
             </div>

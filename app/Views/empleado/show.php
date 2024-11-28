@@ -1,10 +1,9 @@
-<div class="container">
+<div class=" container mt-5">
     <!-- Tabla empleados -->
     <div class="row">
-        <div class="col">
+        <div class="my-2">
             <h1>Empleados</h1>
             <a href="<?= base_url('empleado/addEmpleado/'); ?> " class="btn btn-success">Agregar</a>
-
         </div>
         <div class="row">
             <div class="col">

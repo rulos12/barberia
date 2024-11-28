@@ -2,7 +2,9 @@
  <div class="container">
      <div class="row">
          <div class="col-7 p-5 ">
-             <div class="imgPrincipal"></div>
+             <div class="text-center">
+                 <img src="<?= site_url('upload/getFile/' . esc($producto[0]->id_producto)) ?>" class="imgPrincipal" alt="Producto">
+             </div>
          </div>
          <div class="col-5 p-5 ">
              <h2 class="producto"><?= $producto[0]->nombre ?></h2>
@@ -16,8 +18,10 @@
                  <input type="hidden" value="<?= $producto[0]->id_producto; ?>" name="id_producto">
                  <input type="hidden" value="<?= $producto[0]->nombre; ?>" name="nombre">
                  <input type="hidden" value="<?= $producto[0]->precio; ?>" name="costo">
+                 <input type="hidden" value="<?= $producto[0]->imagenProducto; ?>" name="imagenProducto">
+                 
 
-                <!-- <div class="input-group">
+                 <!-- <div class="input-group">
                      <button class="btn btn-outline-secondary" type="button" onclick="decrement()">-</button>
                      <input type="text" id="counter" class="form-control" value="1" readonly>
                      <button class="btn btn-outline-secondary" type="button" onclick="increment()">+</button>

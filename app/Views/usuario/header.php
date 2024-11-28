@@ -17,7 +17,7 @@
                 <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <input type="text" placeholder="Buscar productos" class="form-control input m-1">
+                            <input type="search" placeholder="Buscar productos" class="form-control input m-1">
                             <button type="button" class="buttonSearch">
                                 <i class="bi bi-search fs-5"></i>
                             </button>
@@ -31,7 +31,7 @@
             </div>
             <div class="col-4">
                 <div class="container-logo">
-                    <a href="<?= base_url('pagina/inicio'); ?>">
+                    <a href="<?= base_url('pagina/inicioU'); ?>">
                         <div class="">
                             <img src="<?php echo base_url('imagenes/logoBarber.png'); ?>" alt="BarberShop" width="110" height="auto">
                         </div>

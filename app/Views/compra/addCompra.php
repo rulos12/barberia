@@ -1,8 +1,10 @@
 <!-- Formulario para agregar nueva Compra -->
-<div class="container">
+<div class="container mt-5">
     <div class="row">
         <div class="col">
-            <h2>Agregar Compra</h2>
+            <div class="my-4">
+                <h2>Agregar Compra</h2>
+            </div>
             <form action="<?= base_url('compra/insert'); ?>" method="POST">
 
 
@@ -33,7 +35,10 @@
                     <option value="pendiente">Pendiente</option>
                     <option value="completada">Completada</option>
                 </select>
-                <h2>Detalles de la Compra</h2>
+                <div class="my-3">
+                    <h2>Detalles de la Compra</h2>
+
+                </div>
                 <label for="id_producto" class="form-label">Producto</label>
                 <div class="input-group mb-3">
                     <a href="<?= base_url('producto/add'); ?>" class="btn btn-outline-secondary">Nuevo</a>

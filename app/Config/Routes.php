@@ -68,6 +68,8 @@ $routes->post('/evento/update', 'Evento::update');
 
 
 $routes->get('/cita', 'Cita::index');
+$routes->get('/citaAdmin', 'Cita::citaAdmin');
+$routes->get('/citaBack', 'Pagina::showCitaBack');
 $routes->get('/cita/add', 'Cita::add');
 $routes->post('/cita/insert', 'Cita::insert');
 $routes->get('/cita/deleteCita/(:num)', 'Cita::deleteCita/$1');
@@ -77,6 +79,8 @@ $routes->get('/cita/deleteCitaC/(:num)', 'Pagina::deleteCita/$1');
 
 $routes->get('/cita/editarCita/(:num)', 'Cita::editarCita/$1');
 $routes->post('/cita/update', 'Cita::update');
+$routes->post('/confirmarCita', 'Pagina::confirmarCita');
+
 
 
 
@@ -106,13 +110,15 @@ $routes->post('/pedido/update', 'Pedido::update');
 
 //Rutas de usuario
 
-$routes->get('/pagina/inicio', 'Pagina::index');
+$routes->get('/pagina/inicioU', 'Pagina::usuario');
 $routes->get('/pagina', 'Pagina::inicio');
 $routes->post('pagina/validaUsuario', 'Pagina::validaUsuario');
 
 
 
 $routes->get('/cuenta/iniciarSesion', 'Pagina::inicioSesionU');
+$routes->get('/loginBack', 'Pagina::logBack');
+
 $routes->get('cuenta/salir', 'Pagina::salir');
 
 $routes->get('/cuenta/registrar', 'Pagina::addCuenta');
@@ -124,6 +130,7 @@ $routes->post('/cuenta/update', 'Pagina::update');
 /**Productos Usuario */
 
 $routes->get('/producto/lista', 'Pagina::listaProducto');
+$routes->get('/producto/listaBack', 'Pagina::listaProductoBack');
 $routes->get('/producto/detalle/(:num)', 'Pagina::detalleProducto/$1');
 $routes->post('/producto/insertCart', 'Pagina::insertCart');
 
@@ -132,6 +139,7 @@ $routes->post('/producto/insertCart', 'Pagina::insertCart');
 $routes->get('/cart/empty', 'Pagina::carritoEmpty');
 $routes->get('/cart', 'Pagina::cart');
 $routes->post('/cart/confirmar', 'Pagina::confirmarCompra');
+$routes->get('/cart/removerItem/(:num)', 'Pagina::removerItem/$1');
 
 
 
@@ -145,6 +153,18 @@ $routes->get('/cita/deleteCita/(:num)', 'Pagina::deleteCita/$1');
 
 $routes->get('/cita/citaOrdenada', 'Cita::listaOrdenada');
 
+
+/***Prueba para imagenes 
+$routes->get('/upload', 'Upload::index'); // Muestra el formulario
+$routes->post('/upload/upload', 'Upload::upload'); // Procesa la subida del archivo
+$routes->get('/prueba/view_files', 'Upload::viewFiles'); // Muestra los archivos subidos
+
+$routes->get('/upload/viewFiles', 'Upload::viewFiles'); // Muestra los archivos subidos*/
+
+$routes->get('/upload/getFile/(:num)', 'Producto::getImagen/$1'); // Descarga un archivo por ID
+
+/**ruta para entrar a la vista usuario desde el administrador */
+$routes->get('/vistaUsuario', 'Pagina::vistaUsuario');
 
 
 

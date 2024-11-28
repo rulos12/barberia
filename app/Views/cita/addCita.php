@@ -1,8 +1,11 @@
 <!-- Formulario para agregar cita -->
-<div class="container">
+<div class="container mt-5">
     <div class="row">
         <div class="col">
-            <h2>Agregar Cita</h2>
+            <div class="my-4">
+              <h2>Agregar Cita</h2>  
+            </div>
+            
 
             <form action="<?= base_url('cita/insert'); ?>" method="POST">
                 <label for="id_cliente" class="form-label">Cliente</label>

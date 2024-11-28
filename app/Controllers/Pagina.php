@@ -25,7 +25,7 @@ class Pagina extends BaseController
         }
     }
 
-    public function index()
+    public function usuario()
     {
         return view('usuario/headUsuario') .
             view('usuario/header') .
@@ -35,28 +35,67 @@ class Pagina extends BaseController
     public function validaUsuario()
     {
         $session = session();
-        $usuario = $_POST['usuario'];
+        $email = $_POST['usuario'];
         $password = $_POST['password'];
+        $tipo = $_POST['tipo'];
+        $UsuarioM = model('UsuarioM');
 
+        if ($tipo == 'administrador') {
+            $usuario = $UsuarioM->validaAdmin($email, $password, $tipo);
+            if (count($usuario) > 0) {
+                $newdata = [
+                    'id_admin' => $usuario[0]->id_usuario,
+                    'nombreAdmin' => 'Administrador',
+                    'email' => $email,
+                    'logged_in' => TRUE,
+                    'tipo' => $tipo
+                ];
+                $session->set($newdata);
+                return redirect()->to(base_url('/producto/listaBack'));
+            } else {
+                session()->setFlashdata('error', 'El usuario no existe en el sistema.');
+                return redirect()->to(base_url('/loginBack'));
+            }
+        } elseif ($tipo == 'cliente') {
+            $usuario = $UsuarioM->validaCliente($email, $password, $tipo);
+            if (count($usuario) > 0) {
+                $newdata = [
+                    'id_cliente' => $usuario[0]->id_cliente,
+                    'nombreCliente' => $usuario[0]->nombreCliente,
+                    'direccion' => $usuario[0]->direccion,
+                    'telefono' => $usuario[0]->telefono,
+                    'email' => $usuario[0]->email,
+                    'logged_in' => TRUE,
+                    'carrito' => NULL,
+                    'tipo' => $tipo
+                ];
+                $session->set($newdata);
+                return redirect()->to(base_url('/pagina/inicioU'));
+            } else {
+                session()->setFlashdata('error', 'El usuario no existe en el sistema.');
+                return redirect()->to(base_url('/cuenta/iniciarSesion'));
 
-        $clienteM = model('ClienteM');
-        $cliente = $clienteM->valida($usuario, $password);
-
-        if (count($cliente) > 0) {
-            $newdata = [
-                'id_cliente' => $cliente[0]->id_cliente, // Guarda idCliente en la sesión
-                'nombreCliente' => $cliente[0]->nombreCliente,
-                'direccion' => $cliente[0]->direccion,
-                'telefono' => $cliente[0]->telefono,
-                'email' => $cliente[0]->email,
-                'logged_in' => TRUE,
-                'carrito' => NULL,
-                'tipo' => 'CLIENTE'
-            ];
-            $session->set($newdata);
-            return redirect()->to(base_url('/pagina/inicio'));
-        } else {
-            print "no existe";
+            }
+        } elseif ($tipo == 'empleado') {
+            $usuario = $UsuarioM->validaEmpleado($email, $password, $tipo);
+            if (count($usuario) > 0) {
+                $newdata = [
+                    'id_empleado' => $usuario[0]->id_empleado,
+                    'nombreEmpleado' => $usuario[0]->nombreEmpleado,
+                    'direccion' => $usuario[0]->direccion,
+                    'telefono' => $usuario[0]->telefono,
+                    'email' => $usuario[0]->email,
+                    'puesto' => $usuario[0]->puesto,
+                    'fecha_contratacion' => $usuario[0]->fecha_contratacion,
+                    'logged_in' => TRUE,
+                    'tipo' => $tipo
+                ];
+                $session->set($newdata);
+                return redirect()->to(base_url('/citaBack'));
+            } else {
+                session()->setFlashdata('error', 'El usuario no existe en el sistema.');
+                return redirect()->to(base_url('/loginBack'));
+            }
         }
     }
     public function inicioSesionU()
@@ -69,13 +108,31 @@ class Pagina extends BaseController
     }
     public function salir()
     {
-
-        $array_items = ['nombreCliente', 'email', 'logged_in', 'telefono', 'direccion'];
         $session = session();
-        $session->destroy();
-        $session->remove($array_items);
+        if ($session->get('tipo') == 'cliente') {
+            $array_items = ['nombreCliente', 'email', 'logged_in', 'telefono', 'direccion'];
 
-        return redirect()->to(base_url('pagina/inicio'));
+            $session->destroy();
+            $session->remove($array_items);
+
+            return redirect()->to(base_url('pagina/inicioU'));
+        }
+        if ($session->get('tipo') == 'administrador') {
+            $array_items = ['email', 'logged_in', 'tipo'];
+
+            $session->destroy();
+            $session->remove($array_items);
+
+            return redirect()->to(base_url('/loginBack'));
+        }
+        if ($session->get('tipo') == 'empleado') {
+            $array_items = ['nombreEmpleado', 'email', 'logged_in', 'telefono', 'direccion', 'puesto', 'fecha_contratacion', 'tipo'];
+
+            $session->destroy();
+            $session->remove($array_items);
+
+            return redirect()->to(base_url('/loginBack'));
+        }
     }
     /**Visualizar el header */
     public function inicio()
@@ -220,6 +277,19 @@ class Pagina extends BaseController
             view('usuario/listaProducto', $data) .
             view('footer');
     }
+    public function listaProductoBack()
+    {
+        $productoM = model('ProductoM');
+        $marcaM = model('MarcaM');
+        $data['marcas'] = $marcaM->findAll();
+
+        $data['productos']  = $productoM->getProductosConMarca();
+
+        return view('head') .
+            view('menu') .
+            view('indexBackend/listaProductos', $data) .
+            view('footer');
+    }
     public function detalleProducto($idProducto)
     {
         $productoM = model('ProductoM');
@@ -235,6 +305,7 @@ class Pagina extends BaseController
             view('usuario/detalleProducto', $data) .
             view('footer');
     }
+
     /**Funciones para carrito */
     public function insertCart()
     {
@@ -243,6 +314,7 @@ class Pagina extends BaseController
         $name = $_POST['nombre'];
         $costo = $_POST['costo'];
         $cantidad = $_POST['stock'];
+        $img = $_POST['imagenProducto'];
         if ($cantidad != null) {
             $subtotal = $cantidad * $costo;
         }
@@ -253,7 +325,8 @@ class Pagina extends BaseController
             "cantidad" => $cantidad,
             "costo" => $costo,
             "subtotal" => $subtotal,
-            "estado" => 'pendiente'
+            "estado" => 'pendiente',
+            "imagenProducto" => $img
         ];
 
         if (isset($carrito[$idProducto])) {
@@ -303,5 +376,76 @@ class Pagina extends BaseController
         echo "insertado";
         $session->remove('carrito');
         return redirect()->to(base_url('cita/historial'));
+    }
+    /**función para eliminar productos del carrito */
+    public function removerItem($idProducto)
+    {
+        $session = session();
+        $carrito = $session->get('carrito') ?? [];
+
+
+        if (isset($carrito[$idProducto])) {
+            unset($carrito[$idProducto]);
+            $session->set('carrito', $carrito);
+        }
+
+        if ($session->get('carrito') != null) {
+            return redirect()->to(base_url('/cart'));
+        }
+        return redirect()->to(base_url('/cart/empty'));
+    }
+    public function showCitaBack()
+    {
+        $clienteM = model('ClienteM');
+        $data['clientes'] = $clienteM->findAll();
+
+        $empleadoM = model('EmpleadoM');
+        $data['empleados'] = $empleadoM->findAll();
+
+        $citaM = model('CitaM');
+
+        $session = session();
+
+        $id_emplado = $session->get('id_empleado');
+        $data['citas']  = $citaM->getCitasConBack($id_emplado);
+        return
+            view('head') .
+            view('menu') .
+            view('indexBackend/showCitaBack', $data) .
+            view('footer');
+    }
+    public function confirmarCita()
+    {
+        $citaM = model('CitaM');
+        $idCita = $_POST['id_cita'];
+
+        $data = [
+            "id_cliente" => $_POST['id_cliente'],
+            "id_empleado" => $_POST['id_empleado'],
+            "fecha_cita" => $_POST['fecha_cita'],
+            "hora_cita" => $_POST['hora_cita'],
+            "servicio" => $_POST['servicio'],
+            "estado" => $_POST['estado'],
+        ];
+
+        $citaM->set($data)->where('id_cita', $idCita)->update();
+
+        return redirect()->to(base_url('/citaBack'));
+    }
+    public function logBack()
+    {
+        return view('indexBackend/loginBack');
+    }
+    public function vistaUsuario()
+    {
+        $session = session();
+
+        if ($session->get('tipo') == 'administrador') {
+            $array_items = ['email', 'logged_in', 'tipo'];
+
+            $session->destroy();
+            $session->remove($array_items);
+            return redirect()->to(base_url('pagina/inicioU'));
+        }
     }
 }

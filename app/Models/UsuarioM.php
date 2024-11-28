@@ -13,7 +13,7 @@ class UsuarioM extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = [];
+    protected $allowedFields    = ['id_usuario', 'email', 'password', 'tipo'];
 
     // Dates
     protected $useTimestamps = false;
@@ -38,16 +38,39 @@ class UsuarioM extends Model
     protected $afterFind      = [];
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
-}
 
+    public function validaAdmin($usuario, $password, $tipo)
+    {
+        $sql = "select * from usuario where email = '" . $usuario . "'
+        and password = '" . $password . "' and tipo = '" . $tipo . "' ";
+        $db = db_connect();
 
-public function validar$usuario,$pass(){
+        $query = $db->query($sql);
 
-    $db = db_connect();
-    $sql = "select nombre, tipo
-    from usuario
-    where usuario = $usuario and pass = $pass"
-    $query = db
+        return $query->getResult();
+    }
+    public function validaCliente($usuario, $password, $tipo)
+    {
+        $sql = "select u.*, cliente.* from usuario u 
+        join cliente on u.id_cliente = cliente.id_cliente
+        where u.email = '" . $usuario . "'
+        and u.password = '" . $password . "' and u.tipo = '" . $tipo . "' ";
+        $db = db_connect();
 
+        $query = $db->query($sql);
 
+        return $query->getResult();
+    }
+    public function validaEmpleado($usuario, $password, $tipo)
+    {
+        $sql = "select u.*, empleado.* from usuario u 
+        join empleado on u.id_empleado = empleado.id_empleado
+        where u.email = '" . $usuario . "'
+        and u.password = '" . $password . "' and u.tipo = '" . $tipo . "' ";
+        $db = db_connect();
+
+        $query = $db->query($sql);
+
+        return $query->getResult();
+    }
 }

@@ -1,8 +1,11 @@
 <!-- Formulario que actualiza el proveedor -->
-<div class="container">
+<div class="container container mt-5">
     <div class="row">
         <div class="col-4 p-3">
-            <h2>Actualizar Proveedor</h2>
+            <div class="my-3">
+                <h2>Actualizar Proveedor</h2>
+
+            </div>
 
             <form action="<?= base_url('proveedor/update'); ?>" method="POST">
 

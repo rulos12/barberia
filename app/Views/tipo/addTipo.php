@@ -1,5 +1,5 @@
 <!-- agregar una categoria(tipo) -->
-<div class="container">
+<div class="container mt-5">
     <div class="row">
         <div class="col-4 p-4">
             <h2>Agregar Categoria</h2>

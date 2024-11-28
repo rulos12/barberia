@@ -39,7 +39,17 @@ class CitaM extends Model
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
 
-    public function getCitasCon()
+    public function getCitasCon($idEmpleado)
+    {
+        // Consultas para obtener solo el nombre de la marca, proveedor, tipo
+
+        return $this->select('cita.*, cliente.nombreCliente, empleado.nombreEmpleado')
+            ->join('cliente', 'cita.id_cliente = cliente.id_cliente', 'left')
+            ->join('empleado', 'cita.id_empleado = empleado.id_empleado', 'left')
+            ->where('cita.id_empleado', $idEmpleado)
+            ->findAll();
+    }
+    public function getCitasAdmin()
     {
         // Consultas para obtener solo el nombre de la marca, proveedor, tipo
 
@@ -48,13 +58,35 @@ class CitaM extends Model
             ->join('empleado', 'cita.id_empleado = empleado.id_empleado', 'left')
             ->findAll();
     }
-    public function getCitasOrdenas($ordenBy = 'id_cita', $direction = 'ASC')
+    public function getCitasConBack($idEmpleado)
     {
- 
+        // Consultas para obtener solo el nombre de la marca, proveedor, tipo
+
+        
         return $this->select('cita.*, cliente.nombreCliente, empleado.nombreEmpleado')
             ->join('cliente', 'cita.id_cliente = cliente.id_cliente', 'left')
             ->join('empleado', 'cita.id_empleado = empleado.id_empleado', 'left')
-            ->orderBy($ordenBy,$direction)
+            ->where('cita.id_empleado', $idEmpleado)
+            ->where('estado', 'programada')
+            ->findAll();
+    }
+    public function getCitasOrdenas($ordenBy = 'id_cita', $direction = 'ASC',$idEmpleado)
+    {
+
+        return $this->select('cita.*, cliente.nombreCliente, empleado.nombreEmpleado')
+            ->join('cliente', 'cita.id_cliente = cliente.id_cliente', 'left')
+            ->join('empleado', 'cita.id_empleado = empleado.id_empleado', 'left')
+            ->where('cita.id_empleado', $idEmpleado)
+            ->orderBy($ordenBy, $direction)
+            ->findAll();
+    }
+    public function getCitasOrdenasAdmin($ordenBy = 'id_cita', $direction = 'ASC')
+    {
+
+        return $this->select('cita.*, cliente.nombreCliente, empleado.nombreEmpleado')
+            ->join('cliente', 'cita.id_cliente = cliente.id_cliente', 'left')
+            ->join('empleado', 'cita.id_empleado = empleado.id_empleado', 'left')
+            ->orderBy($ordenBy, $direction)
             ->findAll();
     }
     public function getEstadoCita($id_cita)

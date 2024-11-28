@@ -1,9 +1,10 @@
 <!-- Formulario para agregar un nuevo pedido -->
-<div class="container">
+<div class="container mt-5">
     <div class="row">
         <div class="col">
-            <h2>Agregar pedido</h2>
-
+            <div class="my-3">
+                <h2>Agregar pedido</h2>
+            </div>
             <form action="<?= base_url('pedido/insert'); ?>" method="POST">
 
 
@@ -32,13 +33,13 @@
                 <label for="total">Total</label>
                 <input type="text" class="form-control" name="total">
 
-               
+
 
                 <input type="submit" class="btn btn-success mt-3 d-block" name="Guardar" value="Guardar">
             </form>
             <h2>Detalles del pedido</h2>
             <label for="id_producto" class="form-label">Producto</label>
-            
+
 
 
             <label for="cantidad">Cantidad</label>

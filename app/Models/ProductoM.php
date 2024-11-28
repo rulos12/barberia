@@ -14,7 +14,7 @@ class ProductoM extends Model
     protected $returnType       = 'object';
     protected $useSoftDeletes   = true;
     protected $protectFields    = true;
-    protected $allowedFields    = ['nombre','precio','descripcion','stock','id_marca','id_tipo', 'id_proveedor'];
+    protected $allowedFields    = ['nombre','precio','descripcion','stock','id_marca','id_tipo', 'id_proveedor','imagenProducto'];
 
     // Dates
     protected $useTimestamps = true;

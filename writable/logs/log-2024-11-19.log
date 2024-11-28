@@ -1,0 +1,1518 @@
+INFO - 2024-11-19 03:14:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 04:39:26 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: prueba/view_files]
+in APPPATH\Controllers\Upload.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Upload->viewFiles()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 04:41:29 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: prueba/view_files]
+in APPPATH\Controllers\Upload.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Upload->viewFiles()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 04:41:30 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: prueba/view_files]
+in APPPATH\Controllers\Upload.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Upload->viewFiles()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+INFO - 2024-11-19 05:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 05:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 05:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 05:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 05:28:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 05:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 05:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 05:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 05:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 05:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 05:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 05:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 05:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 05:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 05:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 05:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 05:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 05:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 05:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 05:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 05:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 05:30:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 05:41:15 --> ErrorException: Undefined variable $clientes
+[Method: GET, Route: cita]
+in APPPATH\Views\cita\showCita.php on line 71.
+ 1 APPPATH\Views\cita\showCita.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\cita\\showCita.php', 71)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\cita\\showCita.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('cita/showCita', [], true)
+ 5 APPPATH\Controllers\Cita.php(19): view('cita/showCita', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cita))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 05:50:03 --> ErrorException: Undefined property: stdClass::$producto
+[Method: GET, Route: producto/editarP/20]
+in APPPATH\Views\producto\editarP.php on line 42.
+ 1 APPPATH\Views\producto\editarP.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$producto', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\producto\\editarP.php', 42)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\producto\\editarP.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/editarP', [], true)
+ 5 APPPATH\Controllers\Producto.php(85): view('producto/editarP', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->editarP('20')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 05:51:50 --> ErrorException: Undefined property: stdClass::$id_producto
+[Method: GET, Route: producto/editarP/20]
+in APPPATH\Views\producto\editarP.php on line 42.
+ 1 APPPATH\Views\producto\editarP.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_producto', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\producto\\editarP.php', 42)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\producto\\editarP.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/editarP', [], true)
+ 5 APPPATH\Controllers\Producto.php(85): view('producto/editarP', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->editarP('20')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 06:20:06 --> ErrorException: Undefined variable $marcas
+[Method: POST, Route: producto/insert]
+in APPPATH\Views\producto\add.php on line 25.
+ 1 APPPATH\Views\producto\add.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $marcas', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\producto\\add.php', 25)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\producto\\add.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/add', [], true)
+ 5 APPPATH\Controllers\Producto.php(68): view('producto/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->insert()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 06:21:59 --> ErrorException: Undefined variable $marcas
+[Method: POST, Route: producto/insert]
+in APPPATH\Views\producto\add.php on line 25.
+ 1 APPPATH\Views\producto\add.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $marcas', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\producto\\add.php', 25)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\producto\\add.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/add', [], true)
+ 5 APPPATH\Controllers\Producto.php(68): view('producto/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->insert()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 06:23:17 --> ErrorException: Undefined variable $marcas
+[Method: POST, Route: producto/insert]
+in APPPATH\Views\producto\add.php on line 25.
+ 1 APPPATH\Views\producto\add.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $marcas', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\producto\\add.php', 25)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\producto\\add.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/add', [], true)
+ 5 APPPATH\Controllers\Producto.php(68): view('producto/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->insert()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 06:26:21 --> ErrorException: Undefined variable $marcas
+[Method: POST, Route: producto/insert]
+in APPPATH\Views\producto\add.php on line 25.
+ 1 APPPATH\Views\producto\add.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $marcas', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\producto\\add.php', 25)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\producto\\add.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/add', [], true)
+ 5 APPPATH\Controllers\Producto.php(68): view('producto/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->insert()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+INFO - 2024-11-19 06:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 06:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 06:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 06:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 06:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 06:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 07:05:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 07:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 07:05:48 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: upload/getFile/31]
+in APPPATH\Controllers\Pagina.php on line 244.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pagina->getFile('31')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagina))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+INFO - 2024-11-19 07:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 07:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 07:10:47 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: upload/getFile/31]
+in APPPATH\Controllers\Producto.php on line 107.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('31')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+INFO - 2024-11-19 07:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 07:11:22 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: upload/getFile/31]
+in APPPATH\Controllers\Producto.php on line 107.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('31')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+INFO - 2024-11-19 07:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 07:11:36 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: upload/getFile/31]
+in APPPATH\Controllers\Producto.php on line 107.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('31')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 07:14:25 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: upload/getFile/31]
+in APPPATH\Controllers\Producto.php on line 107.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('31')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+INFO - 2024-11-19 07:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 07:15:28 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: upload/getFile/31]
+in APPPATH\Controllers\Producto.php on line 107.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('31')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+INFO - 2024-11-19 07:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 07:18:59 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: upload/getFile/31]
+in APPPATH\Controllers\Producto.php on line 107.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('31')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+INFO - 2024-11-19 07:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 07:24:30 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: upload/getFile/31]
+in APPPATH\Controllers\Producto.php on line 106.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('31')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+INFO - 2024-11-19 07:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 07:25:07 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: upload/getFile/31]
+in APPPATH\Controllers\Producto.php on line 106.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('31')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 07:25:21 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: upload/getFile/31]
+in APPPATH\Controllers\Producto.php on line 106.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('31')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+INFO - 2024-11-19 07:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 07:29:32 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: upload/getFile/31]
+in APPPATH\Controllers\Producto.php on line 110.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('31')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 07:29:54 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: upload/getFile/31]
+in APPPATH\Controllers\Producto.php on line 110.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('31')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+INFO - 2024-11-19 07:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 07:31:36 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: upload/getFile/31]
+in APPPATH\Controllers\Producto.php on line 107.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('31')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 07:32:09 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: upload/getFile/31]
+in APPPATH\Controllers\Producto.php on line 107.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('31')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 07:35:38 --> ErrorException: Undefined array key "imagenProducto"
+[Method: GET, Route: upload/getFile/31]
+in APPPATH\Controllers\Producto.php on line 107.
+ 1 APPPATH\Controllers\Producto.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagenProducto"', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 107)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('31')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 07:35:59 --> ErrorException: Undefined array key "imagenProducto"
+[Method: GET, Route: upload/getFile/31]
+in APPPATH\Controllers\Producto.php on line 107.
+ 1 APPPATH\Controllers\Producto.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagenProducto"', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 107)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('31')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 07:37:23 --> ErrorException: Array to string conversion
+[Method: GET, Route: upload/getFile/31]
+in APPPATH\Controllers\Producto.php on line 106.
+ 1 APPPATH\Controllers\Producto.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 106)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('31')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 07:39:56 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: upload/getFile/31]
+in APPPATH\Controllers\Producto.php on line 112.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('31')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 07:40:19 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: upload/getFile/31]
+in APPPATH\Controllers\Producto.php on line 112.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('31')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 07:41:17 --> ErrorException: Array to string conversion
+[Method: GET, Route: upload/getFile/31]
+in APPPATH\Controllers\Producto.php on line 106.
+ 1 APPPATH\Controllers\Producto.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 106)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('31')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 07:41:40 --> ErrorException: Undefined array key "imagenProducto"
+[Method: GET, Route: upload/getFile/31]
+in APPPATH\Controllers\Producto.php on line 107.
+ 1 APPPATH\Controllers\Producto.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagenProducto"', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 107)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('31')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 07:42:15 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: upload/getFile/31]
+in APPPATH\Controllers\Producto.php on line 107.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('31')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+INFO - 2024-11-19 07:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 07:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 07:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 07:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 07:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 07:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 07:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 07:46:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 07:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 07:46:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 07:46:30 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/24]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('24')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+INFO - 2024-11-19 07:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 07:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 07:46:35 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/20]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('20')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+INFO - 2024-11-19 07:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 07:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 07:47:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 07:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 07:48:14 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/20]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('20')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 07:48:14 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/20]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('20')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+INFO - 2024-11-19 07:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 07:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 07:48:58 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/20]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('20')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+INFO - 2024-11-19 07:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 07:49:39 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: producto/lista]
+in APPPATH\Views\usuario\listaProducto.php on line 10.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('usuario/listaProducto', [], true)
+ 4 APPPATH\Controllers\Pagina.php(220): view('usuario/listaProducto', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pagina->listaProducto()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagina))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+INFO - 2024-11-19 07:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 07:50:17 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/20]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('20')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 07:50:18 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/24]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('24')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 07:50:18 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/25]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('25')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 07:50:18 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/29]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('29')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 07:50:19 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/26]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('26')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 07:50:19 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/21]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('21')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 07:50:19 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/30]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('30')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 07:50:19 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/22]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('22')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 07:50:19 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/23]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('23')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 07:50:20 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/27]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('27')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 07:50:20 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/28]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('28')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+INFO - 2024-11-19 17:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 17:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 17:57:04 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/20]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('20')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 17:57:04 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/24]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('24')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 17:57:04 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/25]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('25')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 17:57:05 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/21]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('21')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 17:57:05 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/29]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('29')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 17:57:05 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/26]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('26')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 17:57:05 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/30]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('30')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 17:57:05 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/22]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('22')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 17:57:06 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/28]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('28')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 17:57:06 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/23]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('23')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 17:57:06 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/27]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('27')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+INFO - 2024-11-19 17:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 17:57:10 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/21]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('21')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+INFO - 2024-11-19 17:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 17:57:15 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/20]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('20')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 17:57:15 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/24]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('24')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 17:57:16 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/25]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('25')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 17:57:16 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/29]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('29')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 17:57:16 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/21]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('21')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 17:57:16 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/26]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('26')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 17:57:17 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/22]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('22')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 17:57:17 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/30]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('30')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 17:57:17 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/23]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('23')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 17:57:17 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/27]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('27')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 17:57:17 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/28]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('28')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+INFO - 2024-11-19 18:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 18:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 18:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 18:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 18:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 18:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 18:54:01 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/20]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('20')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:01 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/24]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('24')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:01 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/25]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('25')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:01 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/29]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('29')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:02 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/21]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('21')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:02 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/26]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('26')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:02 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/30]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('30')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:02 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/22]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('22')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:03 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/23]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('23')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:03 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/27]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('27')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:03 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/28]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('28')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+INFO - 2024-11-19 18:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 18:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 18:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 18:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 18:54:25 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/20]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('20')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:25 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/24]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('24')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:25 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/25]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('25')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:25 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/29]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('29')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:26 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/21]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('21')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:26 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/26]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('26')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:26 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/30]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('30')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:26 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/22]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('22')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:27 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/23]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('23')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:27 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/27]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('27')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:27 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/28]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('28')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+INFO - 2024-11-19 18:54:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 18:54:27 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/25]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('25')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+INFO - 2024-11-19 18:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 18:54:36 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/20]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('20')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:36 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/24]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('24')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:36 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/25]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('25')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:36 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/29]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('29')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:37 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/21]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('21')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:37 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/26]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('26')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:37 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/30]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('30')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:38 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/22]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('22')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:38 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/23]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('23')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:38 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/27]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('27')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:38 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/28]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('28')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+INFO - 2024-11-19 18:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 18:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 18:54:46 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/20]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('20')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:46 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/24]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('24')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:47 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/25]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('25')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:47 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/29]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('29')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:47 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/21]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('21')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:47 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/26]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('26')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:47 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/30]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('30')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:48 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/22]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('22')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:48 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/23]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('23')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:48 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/27]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('27')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 18:54:48 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/28]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('28')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+INFO - 2024-11-19 18:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 18:54:51 --> ErrorException: file_get_contents(C:\xampp\htdocs\Barberia\writable\uploads/): Failed to open stream: No such file or directory
+[Method: GET, Route: upload/getFile/25]
+in APPPATH\Controllers\Producto.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\Barberia\\writable\\uploads/): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Barberia\\app\\Controllers\\Producto.php', 113)
+ 2 APPPATH\Controllers\Producto.php(113): file_get_contents('C:\\xampp\\htdocs\\Barberia\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->getFile('25')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+INFO - 2024-11-19 18:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 18:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 18:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 18:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 18:57:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 18:57:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 18:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 18:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 18:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 18:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 18:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 18:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-19 18:58:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-19 18:58:46 --> ErrorException: Undefined variable $clientes
+[Method: GET, Route: cita]
+in APPPATH\Views\cita\showCita.php on line 71.
+ 1 APPPATH\Views\cita\showCita.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\cita\\showCita.php', 71)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\cita\\showCita.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('cita/showCita', [], true)
+ 5 APPPATH\Controllers\Cita.php(19): view('cita/showCita', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cita))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')
+CRITICAL - 2024-11-19 19:06:26 --> ErrorException: Undefined variable $clientes
+[Method: GET, Route: cita]
+in APPPATH\Views\cita\showCita.php on line 71.
+ 1 APPPATH\Views\cita\showCita.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'C:\\xampp\\htdocs\\Barberia\\app\\Views\\cita\\showCita.php', 71)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Barberia\\app\\Views\\cita\\showCita.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('cita/showCita', [], true)
+ 5 APPPATH\Controllers\Cita.php(19): view('cita/showCita', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cita))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Barberia\\public\\index.php')

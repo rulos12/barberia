@@ -8,11 +8,33 @@ class Cita extends BaseController
 {
     public function index(): string
     {
+        $clienteM = model('ClienteM');
+        $data['clientes'] = $clienteM->findAll();
 
+        $empleadoM = model('EmpleadoM');
+        $data['empleados'] = $empleadoM->findAll();
+        $citaM = model('CitaM');
+        $session = session();
 
+        $id_emplado = $session->get('id_empleado');
+        $data['citas']  = $citaM->getCitasCon($id_emplado);
+        return
+            view('head') .
+            view('menu') .
+            view('cita/showCita', $data) .
+            view('footer');
+    }
+    public function citaAdmin()
+    {
+
+        $clienteM = model('ClienteM');
+        $data['clientes'] = $clienteM->findAll();
+
+        $empleadoM = model('EmpleadoM');
+        $data['empleados'] = $empleadoM->findAll();
         $citaM = model('CitaM');
 
-        $data['citas']  = $citaM->getCitasCon();
+        $data['citas']  = $citaM->getCitasAdmin();
         return
             view('head') .
             view('menu') .
@@ -75,22 +97,22 @@ class Cita extends BaseController
         $idCita = $data['id_cita'] = $idCita;
         $citaM = model('CitaM');
 
-        //Obtenemos el estado dependiendo del id de la cita
+        //Obtenemos el estado dependiendo del id de la citap
         $estadoResultado = $citaM->getEstadoCita($idCita);
         /*agregamos el estado que obtubimos de la consulta 
         a la variable data para que se mande al formulario 
         */
-        $data['estados'] = $estadoResultado[0]->estado; 
+        $data['estados'] = $estadoResultado[0]->estado;
 
         $servicioResultado = $citaM->getServicioCita($idCita);
-        $data['servicio'] = $servicioResultado[0]->servicio; 
-        
+        $data['servicio'] = $servicioResultado[0]->servicio;
+
         $data['citas']  = $citaM->where('id_cita', $idCita)->getCitasCon();
 
         return
             view('head') .
             view('menu') .
-            view('cita/showCita', $data) .
+            view('cita/editarCita', $data) .
             view('footer');
     }
 
@@ -119,13 +141,23 @@ class Cita extends BaseController
         $citaM = model('CitaM');
         $ordenBy = 'estado';
         $direction = 'DESC';
+        $session = session();
 
-        $data['citas']  = $citaM->getCitasOrdenas($ordenBy, $direction);
-        return
-            view('head') .
-            view('menu') .
-            view('cita/showCita', $data) .
-            view('footer');
+        if ($session->get('tipo') == 'empleado') {
+            $id_emplado = $session->get('id_empleado');
+            $data['citas']  = $citaM->getCitasOrdenas($ordenBy, $direction, $id_emplado);
+            return
+                view('head') .
+                view('menu') .
+                view('cita/showCita', $data) .
+                view('footer');
+        } elseif ($session->get('tipo') == 'administrador') {
+            $data['citas']  = $citaM->getCitasOrdenasAdmin($ordenBy, $direction);
+            return
+                view('head') .
+                view('menu') .
+                view('cita/showCita', $data) .
+                view('footer');
+        }
     }
-
 }

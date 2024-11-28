@@ -1,8 +1,10 @@
 
-<div class="container">
+<div class="container mt-5">
     <div class="row">
         <div class="col">
+            <div class="my-3">
             <h2>Agregar Cliente</h2>
+            </div>
             <?= validation_list_errors() ?>
 
             <form action="<?=base_url('cliente/insert'); ?>" method = "POST">
